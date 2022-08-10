@@ -1,0 +1,572 @@
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: NotoSerif;
+    src: url(./fonts/NotoSerif-Regular.ttf);
+}
+@font-face {
+    font-family: KottaOne;
+    src: url(./fonts/KottaOne-Regular.ttf);
+}
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(./fonts/AbhayaLibre-Regular.ttf);
+}
+
+
+.projectWindow{
+    height:75%;
+    width: 100%;
+    z-index: 10 !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addProjectcontainer{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: rgba(0, 0, 0, .3);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    z-index: 5;
+    
+}
+.show{
+    display: flex !important;
+}
+
+.addProject{
+    width: 40vw;
+    height: 54vh;
+    /* border: 1px solid #000000; */
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    background: radial-gradient(100% 153.29% at 100% 0%, #000000 0%, #FFFFFF 100%);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.titleBox{
+    height:10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: black;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    line-height: 24px;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 10;
+    position: relative;
+}
+.choiceBar{
+    height: 15%;
+    width: 100%;
+    float:inline-end;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    z-index: 10;
+    position: relative;
+}
+.addProjectButton{
+    background-color: rgba(0, 0, 0, 0);
+    width: 8vw;
+    height: 5vh;
+    margin-left: 1vw;
+    border:none;
+    font-family: Lato;
+    font-size: 2vh;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 600;
+}
+.selectProjectButton{
+    width: 8vw;
+    height: 5vh;
+    margin: 0;
+    border:none;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 2vh;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.selected{
+    background: radial-gradient(100% 148.94% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    color:black !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+.mainProjectWindow{
+    height:76%;
+    width: 90%;
+    /* padding-top: 5vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: radial-gradient(100% 148.94% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+    border-radius: 0 5px 5px 5px;
+    margin-right: 5%;
+}
+.bottomProjectWindow{
+    width: 100%;
+    height:24%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 4%;
+}
+.firstRow{
+    height: 35%;
+    margin-top: 6%;
+    width: 100%;
+    display: flex;
+ 
+}
+.secondRow{
+    height: 35%;
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+}
+.projectNameAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:1vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 3vh;
+
+}
+.projectCodeAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:1vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 3vh;
+}
+.firstRow input{
+    width: 90%;
+    height: 30%;
+    border-radius: 5px;
+    outline: none !important;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vh;
+    line-height: 30%;
+    color: black;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.projectNameAdd input::placeholder{
+    color: rgb(0,0,0, 0.8);
+    font-size: 0.9vw;
+    font-style: italic;
+    text-align: right;
+} 
+.projectCodeAdd input::placeholder{
+    color: rgb(0,0,0, 0.8);
+    font-size: 0.9vw;
+    font-style: italic;
+    text-align: right;
+    text-transform: lowercase;
+} 
+
+.projectColorAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:1vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 3vh;
+}
+.projectColor{
+    width:1.8vw;
+    height: 1.8vw;
+    border-radius: 5px;
+    margin-right: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projectColorRow :hover {
+    transform: scale(1.2);
+}
+.projectColorRow{
+    margin-top: 2%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.projectStyleAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:1vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 3vh;
+}
+.projectStyleAdd input{
+    width: 90%;
+    height: 30%;
+    border-radius: 5px;
+    outline: none !important;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vh;
+    line-height: 30%;
+    color: black;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.projectSave{
+    width: 5.1vw;
+    height: 5.2vh;
+    margin-right: 2%;
+    border: none;
+    font-family: Lato;
+    font-size: 2.8vh;
+    padding: 0;
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) !important;
+    opacity: 0.8;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1000000px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    z-index: 10 !important;
+    position: relative;
+    color: #000000;
+}
+.projectCancel{
+    width: 5.1vw;
+    height: 5.2vh;
+    border-radius: 5px;
+    font-family: Lato;
+    font-size: 2.8vh;
+    padding: 0;
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.8;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(100px);
+    position: relative;
+    border-radius: 10px;
+}
+.projectCancel:hover{
+    transform: scale(1.05);
+}
+.projectSave:hover{
+    transform: scale(1.05);
+}
+.projectColor img{
+    width:0.8vw;
+    height:0.6vw;
+    opacity: 0.7;
+}
+#projectDelete{
+    border: 1px solid white !important; 
+}
+.leftbottomProjectWindow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width:50%;
+    height: 100%;
+    float: right;
+}
+.rightbottomProjectWindow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:50%;
+    height: 100%;
+    float: left;
+    margin-left: 1vw;
+}
+/* SELECT PART */
+.leftbottomProjectWindow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width:50%;
+    height: 100%;
+    float: right;
+}
+.selectProjectwindow{
+    width: 80%;
+    height: 70%;
+
+}
+.selectmainProjectWindow{
+    height:76%;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background: radial-gradient(100% 148.94% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+.selectfirstRow{
+    height: 35%;
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+}
+.selectprojectNameAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:0.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 2.5vh;
+}
+.selectfirstRow input{
+    width: 90%;
+    height: 40%;
+    border-radius: 5px;
+    outline: none !important;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8vh;
+    line-height: 30%;
+    color: black;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.selectprojectCodeAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:0.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 2.5vh;
+}
+.selectsecondRow{
+    height: 35%;
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+}
+.selectprojectColorAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:0.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 2.5vh;
+}
+.selectprojectStyleAdd{
+    width: 50%;
+    height: 100%;
+    padding-left:0.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Lato;
+    font-size: 2.5vh;
+}
+.selectprojectStyleAdd input{
+    width: 90%;
+    height: 30%;
+    border-radius: 5px;
+    outline: none !important;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8vh;
+    line-height: 30%;
+    color: black;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.selectprojectColor{
+    width:1.5vw;
+    height: 1.5vw;
+    border-radius: 5px;
+    margin-right: 0.3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selectprojectColor img{
+    width:0.8vw;
+    height:0.6vw;
+    opacity: 0.7;
+}
+.topProjectName{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+.selectleftArrow{
+    position:absolute;
+    top: 50%;
+    left:1vw;
+    width:2vw;
+    height:5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    border: none;
+}
+.selectleftArrow:hover{
+    transform: scale(1.05);
+}
+.selectrightArrow{
+    position:absolute;
+    top: 50%;
+    left: 92%;
+    width:2vw;
+    height:5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    border: none;
+}
+.selectrightArrow:hover{
+    transform: scale(1.05);
+}
+.addProjectbackground_1{
+    position: absolute;
+    width: 143px;
+    height: 204.77px;
+    left: 10.9px;
+    top: -40.02px;
+
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: rotate(106.46deg);
+    z-index: 7 !important;
+}
+.addProjectbackground_2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 254.16px;
+    top: -5px;
+    
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: rotate(77.74deg);
+    z-index: 7 !important;
+}
+.addProjectbackground_3{
+    position: absolute;
+    width: 143px;
+    height: 135.81px;
+    left: 94.27px;
+    top: 280px;
+
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: rotate(45.14deg);
+    z-index: 7 !important;
+}
+.addProjectbackground_4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: -118px;
+    top: 82px;
+
+    background: radial-gradient(100% 153.29% at 100% 0%, #000000 0%, #FFFFFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    filter: blur(100px);
+    border-radius: 5px;
+}

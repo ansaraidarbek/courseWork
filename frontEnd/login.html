@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/fixed/login.css">
+    <link rel="stylesheet" href="css/fixed/preloader.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <script type="module" src="./scripts/login.js" ></script>
+    <script>
+        window.$ = window.jQuery = require("./plugins/jquery.min.js");
+    </script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="option" id="option">
+        <span>In order to remember you we need your image, do you want to proceed?</span>
+        <div class="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+    </div>
+    <div class="ansars_beauty">
+
+    <h1 class="login-header">Productivity app</h1>
+    <form class="login-body" id="login-form">
+        <img class="login-backImage" src = "images/time.png" alt="timeImg">
+        <div class="login-inputs">
+            <div class="login-email">
+                <img src = "./icons/userLogin.svg" alt="user"/>
+                <input 
+                    type="text" 
+                    id="emailPlaceholder"
+                    placeholder="Email" 
+                    autocomplete="off"
+                />
+            </div>
+            <div class="login-psw">
+                <img src = "./icons/lockLogin.svg" alt="password"/>
+                <input 
+                    type="password" 
+                    id="pswPlaceholder" 
+                    placeholder="Password" 
+                    autocomplete="off"
+                />
+            </div>
+            <div class="rememberMe">
+                <input 
+                class = "customcb"  
+                type="checkbox" 
+                id="checkBox_RememberMe"
+                name = "tool"
+                value = "Remember me"
+            /> 
+            <label for="checkBox_RememberMe">Remember me</label>
+            </div>
+            
+
+            <button id="login-button">
+                <p>Login</p>
+            </button>
+        </div>
+    </form>
+    <a href="register.html" class="login-toRegister">Don't have an account? Sign Up</a>
+
+</div>
+</body>
+</html>

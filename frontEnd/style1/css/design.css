@@ -1,0 +1,1619 @@
+/*--------------------------------------------------------------COLORS---------------------------------------------*/
+.color1-1{
+    background-color: #FFFFFF !important;
+}
+
+.color1-2{
+    background-color: #C2C2C2!important;
+}
+
+.color1-3{
+    background-color: #828282!important;
+}
+
+.color1-4{
+    background-color: #757575!important;
+}
+
+.color1-5{
+    background-color: #5C5C5C!important;
+}
+
+.color2-1{
+    background-color: #FFFFFF !important;
+}
+
+.color2-2{
+    background-color: #5893CD!important;
+}
+
+.color2-3{
+    background-color: #0D5594!important;
+}
+
+.color2-4{
+    background-color: #00396A!important;
+}
+
+.color2-5{
+    background-color: #022658!important;
+}
+
+.color3-1{
+    background-color: #FFFFFF !important;
+}
+
+.color3-2{
+    background-color: #CC9966!important;
+}
+
+.color3-3{
+    background-color: #B37A4C!important;
+}
+
+.color3-4{
+    background-color: #9C6137!important;
+}
+
+.color3-5{
+    background-color: #5A3825!important;
+}
+
+.color4-1{
+    background-color: #FFFFFF !important;
+}
+
+.color4-2{
+    background-color: #FFFC98!important;
+}
+
+.color4-3{
+    background-color: #E9F559!important;
+}
+
+.color4-4{
+    background-color: #EEDF27!important;
+}
+
+.color4-5{
+    background-color: #D7CE00!important;
+}
+
+.color5-1{
+    background-color: #FFFFFF !important;
+}
+
+.color5-2{
+    background-color: #AAE8C1!important;
+}
+
+.color5-3{
+    background-color: #62AA85!important;
+}
+
+.color5-4{
+    background-color: #2E6C53!important;
+}
+
+.color5-5{
+    background-color: #1B4D3B!important;
+}
+
+.color6-1{
+    background-color: #FFFFFF !important;
+}
+
+.color6-2{
+    background-color: #FF99FF!important;
+}
+
+.color6-3{
+    background-color: #D773E5!important;
+}
+
+.color6-4{
+    background-color: #B14BCA!important;
+}
+
+.color6-5{
+    background-color: #8B26B2!important;
+}
+
+.color7-1{
+    background-color: #FFFFFF !important;
+}
+
+.color7-2{
+    background-color: #FFA6A6!important;
+}
+
+.color7-3{
+    background-color: #F46F6F!important;
+}
+
+.color7-4{
+    background-color: #FF4A4A!important;
+}
+
+.color7-5{
+    background-color: #FF0000!important;
+}
+
+.color8-1{
+    background-color: #FFFFFF !important;
+}
+
+.color8-2{
+    background-color: #FCC0D7!important;
+}
+
+.color8-3{
+    background-color: #FF8EB8!important;
+}
+
+.color8-4{
+    background-color: #FF66A0!important;
+}
+
+.color8-5{
+    background-color: #FF488E!important;
+}
+
+/*--------------------------------------------------------------COLORS---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR-ARROWS---------------------------------------------*/
+.color1-arrow{
+    border-left: 0.7vw solid #5C5C5C;
+}
+
+.color2-arrow{
+    border-left: 0.7vw solid #022658;
+}
+
+.color3-arrow{
+    border-left: 0.7vw solid #5A3825;
+}
+
+.color4-arrow{
+    border-left: 0.7vw solid #D7CE00;
+}
+
+.color5-arrow{
+    border-left: 0.7vw solid #1B4D3B;
+}
+
+.color6-arrow{
+    border-left: 0.7vw solid #8B26B2;
+}
+
+.color7-arrow{
+    border-left: 0.7vw solid #FF0000;
+}
+
+.color8-arrow{
+    border-left: 0.7vw solid #FF488E;
+}
+
+/*--------------------------------------------------------------COLOR-ARROWS---------------------------------------------*/
+
+/*--------------------------------------------------------------COLOR-THROUGH---------------------------------------------*/
+.color1-through{
+    background-color: rgba(194,194,194,0.8)!important;
+}
+
+.color2-through{
+    background-color: rgba(88,147,205,0.8)!important;
+}
+
+.color3-through{
+    background-color: rgba(204, 153, 102, 0.8)!important;
+}
+
+.color4-through{
+    background-color: rgba(255, 254, 217, 0.8)!important;
+}
+
+.color5-through{
+    background-color: rgba(170, 232, 193, 0.8)!important;
+}
+
+.color6-through{
+    background-color: rgba(255, 153, 255, 0.8)!important;
+}
+
+.color7-through{
+    background-color: rgba(255, 166, 166, 0.8)!important;
+}
+
+.color8-through{
+    background-color: rgba(252, 192, 215, 0.8)!important;
+}
+
+/*--------------------------------------------------------------COLOR-THROUGH---------------------------------------------*/
+
+/*--------------------------------------------------------------COLOR-ROTATION---------------------------------------------*/
+.color1-rotation{
+    background: conic-gradient( #C2C2C2 40deg, transparent 180deg)!important;
+}
+
+.color2-rotation{
+    background: conic-gradient(#5893CD 40deg, transparent 180deg)!important;
+}
+
+.color3-rotation{
+    background: conic-gradient( #CC9966 40deg, transparent 180deg)!important;
+}
+
+.color4-rotation{
+    background: conic-gradient( #FFFC98 40deg, transparent 180deg)!important;
+}
+
+.color5-rotation{
+    background: conic-gradient( #AAE8C1 40deg, transparent 180deg)!important;
+}
+
+.color6-rotation{
+    background: conic-gradient( #FF99FF 40deg, transparent 180deg)!important;
+}
+
+.color7-rotation{
+    background: conic-gradient( #FFA6A6 40deg, transparent 180deg)!important;
+}
+
+.color8-rotation{
+    background: conic-gradient( #FCC0D7 40deg, transparent 180deg)!important;
+}
+
+/*--------------------------------------------------------------COLOR-ROTATION---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR-BACK---------------------------------------------*/
+.color1-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #C2C2C2 43.54%, #FFFFFF 100%)!important;
+}
+
+.color2-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #5893CD 43.54%, #FFFFFF 100%)!important;
+}
+
+.color3-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #CC9966 43.54%, #FFFFFF 100%)!important;
+}
+
+.color4-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #FFFC98 43.54%, #FFFFFF 100%)!important;
+}
+
+.color5-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #AAE8C1 43.54%, #FFFFFF 100%)!important;
+}
+
+.color6-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #FF99FF 43.54%, #FFFFFF 100%)!important;
+}
+
+.color7-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #FFA6A6 43.54%, #FFFFFF 100%)!important;
+}
+
+.color8-back{
+    background: radial-gradient(87.5% 87.5% at 50% 12.5%, #FCC0D7 43.54%, #FFFFFF 100%)!important;
+}
+/*--------------------------------------------------------------COLOR-BACK---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR-BORDERS---------------------------------------------*/
+.color1-borders{
+    border: 0.1vh solid #5C5C5C;
+}
+
+.color2-borders{
+    border: 0.1vh solid #022658;
+}
+
+.color3-borders{
+    border: 0.1vh solid #5A3825;
+}
+
+.color4-borders{
+    border: 0.1vh solid #D7CE00;
+}
+
+.color5-borders{
+    border: 0.1vh solid #1B4D3B;
+}
+
+.color6-borders{
+    border: 0.1vh solid #8B26B2;
+}
+
+.color7-borders{
+    border: 0.1vh solid #FF0000;
+}
+
+.color8-borders{
+    border: 0.1vh solid #FF488E;
+}
+
+/*--------------------------------------------------------------COLOR-BORDERS---------------------------------------------*/
+
+/*--------------------------------------------------------------COLOR-2s---------------------------------------------*/
+.color1-2s{
+    stroke: #C2C2C2!important;
+}
+
+.color1-2s{
+    stroke: #C2C2C2!important;
+}
+
+.color2-2s{
+    stroke: #5893CD!important;
+}
+
+.color3-2s{
+    stroke: #CC9966!important;
+}
+
+.color4-2s{
+    stroke: #FFFC98!important;
+}
+
+.color5-2s{
+    stroke: #AAE8C1!important;
+}
+
+.color6-2s{
+    stroke:  #FF99FF!important;
+}
+
+.color7-2s{
+    stroke: #FFA6A6!important;
+}
+
+.color8-2s{
+    stroke: #FCC0D7!important;
+}
+/*--------------------------------------------------------------COLOR-2s---------------------------------------------*/
+
+/*--------------------------------------------------------------COLOR-4s---------------------------------------------*/
+.color1-4s{
+    stroke: #757575!important;
+}
+
+.color2-4s{
+    stroke: #00396A!important;
+}
+
+.color3-4s{
+    stroke: #9C6137!important;
+}
+
+.color4-4s{
+    stroke: #EEDF27!important;
+}
+
+.color5-4s{
+    stroke: #2E6C53!important;
+}
+
+.color6-4s{
+    stroke: #B14BCA!important;
+}
+
+.color7-4s{
+    stroke: #FF4A4A!important;
+}
+
+.color8-4s{
+    stroke: #FF66A0!important;
+}
+/*--------------------------------------------------------------COLOR-4s---------------------------------------------*/
+
+/*--------------------------------------------------------------CONNECTIONS---------------------------------------------*/
+
+
+.color1-color1-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #C2C2C2 100%)!important;
+}
+
+.color1-color1-3{
+    background: linear-gradient(180deg, #828282 0%, #828282 100%)!important;
+}
+
+.color1-color1-4{
+    background: linear-gradient(180deg, #757575 0%, #757575 100%)!important;
+}
+
+.color1-color1-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #5C5C5C 100%)!important;
+}
+
+
+.color1-color2-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #5893CD 100%)!important;
+}
+
+.color1-color2-3{
+    background: linear-gradient(180deg, #828282 0%, #0D5594 100%)!important;
+}
+
+.color1-color2-4{
+    background: linear-gradient(180deg, #757575 0%, #00396A 100%)!important;
+}
+
+.color1-color2-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #022658 100%)!important;
+}
+
+.color1-color3-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #CC9966 100%)!important;
+}
+
+.color1-color3-3{
+    background: linear-gradient(180deg, #828282 0%, #B37A4C 100%)!important;
+}
+
+.color1-color3-4{
+    background: linear-gradient(180deg, #757575 0%, #9C6137 100%)!important;
+}
+
+.color1-color3-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #5A3825 100%)!important;
+}
+
+.color1-color4-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #FFFC98 100%)!important;
+}
+
+.color1-color4-3{
+    background: linear-gradient(180deg, #828282 0%, #E9F559 100%)!important;
+}
+
+.color1-color4-4{
+    background: linear-gradient(180deg, #757575 0%, #EEDF27 100%)!important;
+}
+
+.color1-color4-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #D7CE00 100%)!important;
+}
+
+.color1-color5-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #AAE8C1 100%)!important;
+}
+
+.color1-color5-3{
+    background: linear-gradient(180deg, #828282 0%, #62AA85 100%)!important;
+}
+
+.color1-color5-4{
+    background: linear-gradient(180deg, #757575 0%, #2E6C53 100%)!important;
+}
+
+.color1-color5-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #1B4D3B 100%)!important;
+}
+
+.color1-color6-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #FF99FF 100%)!important;
+}
+
+.color1-color6-3{
+    background: linear-gradient(180deg, #828282 0%, #D773E5 100%)!important;
+}
+
+.color1-color6-4{
+    background: linear-gradient(180deg, #757575 0%, #B14BCA 100%)!important;
+}
+
+.color1-color6-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #8B26B2 100%)!important;
+}
+
+.color1-color7-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #FFA6A6 100%)!important;
+}
+
+.color1-color7-3{
+    background: linear-gradient(180deg, #828282 0%, #F46F6F 100%)!important;
+}
+
+.color1-color7-4{
+    background: linear-gradient(180deg, #757575 0%, #FF4A4A 100%)!important;
+}
+
+.color1-color7-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #FF0000 100%)!important;
+}
+
+.color1-color8-2{
+    background: linear-gradient(180deg, #C2C2C2 0%, #FCC0D7 100%)!important;
+}
+
+.color1-color8-3{
+    background: linear-gradient(180deg, #828282 0%, #FF8EB8 100%)!important;
+}
+
+.color1-color8-4{
+    background: linear-gradient(180deg, #757575 0%, #FF66A0 100%)!important;
+}
+
+.color1-color8-5{
+    background: linear-gradient(180deg, #5C5C5C 0%, #FF488E 100%)!important;
+}
+
+.color2-color1-2{
+    background: linear-gradient(180deg, #5893cd 0%, #C2C2C2 100%)!important;
+}
+
+.color2-color1-3{
+    background: linear-gradient(180deg, #0D5594 0%, #828282 100%)!important;
+}
+
+.color2-color1-4{
+    background: linear-gradient(180deg, #00396A 0%, #757575 100%)!important;
+}
+
+.color2-color1-5{
+    background: linear-gradient(180deg, #022658 0%, #5C5C5C 100%)!important;
+}
+
+
+.color2-color2-2{
+    background: linear-gradient(180deg, #5893cd 0%, #5893CD 100%)!important;
+}
+
+.color2-color2-3{
+    background: linear-gradient(180deg, #0D5594 0%, #0D5594 100%)!important;
+}
+
+.color2-color2-4{
+    background: linear-gradient(180deg, #00396A 0%, #00396A 100%)!important;
+}
+
+.color2-color2-5{
+    background: linear-gradient(180deg, #022658 0%, #022658 100%)!important;
+}
+
+.color2-color3-2{
+    background: linear-gradient(180deg, #5893cd 0%, #CC9966 100%)!important;
+}
+
+.color2-color3-3{
+    background: linear-gradient(180deg, #0D5594 0%, #B37A4C 100%)!important;
+}
+
+.color2-color3-4{
+    background: linear-gradient(180deg, #00396A 0%, #9C6137 100%)!important;
+}
+
+.color2-color3-5{
+    background: linear-gradient(180deg, #022658 0%, #5A3825 100%)!important;
+}
+
+.color2-color4-2{
+    background: linear-gradient(180deg, #5893cd 0%, #FFFC98 100%)!important;
+}
+
+.color2-color4-3{
+    background: linear-gradient(180deg, #0D5594 0%, #E9F559 100%)!important;
+}
+
+.color2-color4-4{
+    background: linear-gradient(180deg, #00396A 0%, #EEDF27 100%)!important;
+}
+
+.color2-color4-5{
+    background: linear-gradient(180deg, #022658 0%, #D7CE00 100%)!important;
+}
+
+.color2-color5-2{
+    background: linear-gradient(180deg, #5893cd 0%, #AAE8C1 100%)!important;
+}
+
+.color2-color5-3{
+    background: linear-gradient(180deg, #0D5594 0%, #62AA85 100%)!important;
+}
+
+.color2-color5-4{
+    background: linear-gradient(180deg, #00396A 0%, #2E6C53 100%)!important;
+}
+
+.color2-color5-5{
+    background: linear-gradient(180deg, #022658 0%, #1B4D3B 100%)!important;
+}
+
+.color2-color6-2{
+    background: linear-gradient(180deg, #5893cd 0%, #FF99FF 100%)!important;
+}
+
+.color2-color6-3{
+    background: linear-gradient(180deg, #0D5594 0%, #D773E5 100%)!important;
+}
+
+.color2-color6-4{
+    background: linear-gradient(180deg, #00396A 0%, #B14BCA 100%)!important;
+}
+
+.color2-color6-5{
+    background: linear-gradient(180deg, #022658 0%, #8B26B2 100%)!important;
+}
+
+.color2-color7-2{
+    background: linear-gradient(180deg, #5893cd 0%, #FFA6A6 100%)!important;
+}
+
+.color2-color7-3{
+    background: linear-gradient(180deg, #0D5594 0%, #F46F6F 100%)!important;
+}
+
+.color2-color7-4{
+    background: linear-gradient(180deg, #00396A 0%, #FF4A4A 100%)!important;
+}
+
+.color2-color7-5{
+    background: linear-gradient(180deg, #022658 0%, #FF0000 100%)!important;
+}
+
+.color2-color8-2{
+    background: linear-gradient(180deg, #5893cd 0%, #FCC0D7 100%)!important;
+}
+
+.color2-color8-3{
+    background: linear-gradient(180deg, #0D5594 0%, #FF8EB8 100%)!important;
+}
+
+.color2-color8-4{
+    background: linear-gradient(180deg, #00396A 0%, #FF66A0 100%)!important;
+}
+
+.color2-color8-5{
+    background: linear-gradient(180deg, #022658 0%, #FF488E 100%)!important;
+}
+
+
+.color3-color1-2{
+    background: linear-gradient(180deg, #CC9966 0%, #C2C2C2 100%)!important;
+}
+
+.color3-color1-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #828282 100%)!important;
+}
+
+.color3-color1-4{
+    background: linear-gradient(180deg, #9C6137 0%, #757575 100%)!important;
+}
+
+.color3-color1-5{
+    background: linear-gradient(180deg, #5A3825 0%, #5C5C5C 100%)!important;
+}
+
+
+.color3-color2-2{
+    background: linear-gradient(180deg, #CC9966 0%, #5893CD 100%)!important;
+}
+
+.color3-color2-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #0D5594 100%)!important;
+}
+
+.color3-color2-4{
+    background: linear-gradient(180deg, #9C6137 0%, #00396A 100%)!important;
+}
+
+.color3-color2-5{
+    background: linear-gradient(180deg, #5A3825 0%, #022658 100%)!important;
+}
+
+.color3-color3-2{
+    background: linear-gradient(180deg, #CC9966 0%, #CC9966 100%)!important;
+}
+
+.color3-color3-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #B37A4C 100%)!important;
+}
+
+.color3-color3-4{
+    background: linear-gradient(180deg, #9C6137 0%, #9C6137 100%)!important;
+}
+
+.color3-color3-5{
+    background: linear-gradient(180deg, #5A3825 0%, #5A3825 100%)!important;
+}
+
+.color3-color4-2{
+    background: linear-gradient(180deg, #CC9966 0%, #FFFC98 100%)!important;
+}
+
+.color3-color4-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #E9F559 100%)!important;
+}
+
+.color3-color4-4{
+    background: linear-gradient(180deg, #9C6137 0%, #EEDF27 100%)!important;
+}
+
+.color3-color4-5{
+    background: linear-gradient(180deg, #5A3825 0%, #D7CE00 100%)!important;
+}
+
+.color3-color5-2{
+    background: linear-gradient(180deg, #CC9966 0%, #AAE8C1 100%)!important;
+}
+
+.color3-color5-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #62AA85 100%)!important;
+}
+
+.color3-color5-4{
+    background: linear-gradient(180deg, #9C6137 0%, #2E6C53 100%)!important;
+}
+
+.color3-color5-5{
+    background: linear-gradient(180deg, #5A3825 0%, #1B4D3B 100%)!important;
+}
+
+.color3-color6-2{
+    background: linear-gradient(180deg, #CC9966 0%, #FF99FF 100%)!important;
+}
+
+.color3-color6-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #D773E5 100%)!important;
+}
+
+.color3-color6-4{
+    background: linear-gradient(180deg, #9C6137 0%, #B14BCA 100%)!important;
+}
+
+.color3-color6-5{
+    background: linear-gradient(180deg, #5A3825 0%, #8B26B2 100%)!important;
+}
+
+.color3-color7-2{
+    background: linear-gradient(180deg, #CC9966 0%, #FFA6A6 100%)!important;
+}
+
+.color3-color7-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #F46F6F 100%)!important;
+}
+
+.color3-color7-4{
+    background: linear-gradient(180deg, #9C6137 0%, #FF4A4A 100%)!important;
+}
+
+.color3-color7-5{
+    background: linear-gradient(180deg, #5A3825 0%, #FF0000 100%)!important;
+}
+
+.color3-color8-2{
+    background: linear-gradient(180deg, #CC9966 0%, #FCC0D7 100%)!important;
+}
+
+.color3-color8-3{
+    background: linear-gradient(180deg, #B37A4C 0%, #FF8EB8 100%)!important;
+}
+
+.color3-color8-4{
+    background: linear-gradient(180deg, #9C6137 0%, #FF66A0 100%)!important;
+}
+
+.color3-color8-5{
+    background: linear-gradient(180deg, #5A3825 0%, #FF488E 100%)!important;
+}
+
+.color4-color1-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #C2C2C2 100%)!important;
+}
+
+.color4-color1-3{
+    background: linear-gradient(180deg, #fff698 0%, #828282 100%)!important;
+}
+
+.color4-color1-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #757575 100%)!important;
+}
+
+.color4-color1-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #5C5C5C 100%)!important;
+}
+
+
+.color4-color2-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #5893CD 100%)!important;
+}
+
+.color4-color2-3{
+    background: linear-gradient(180deg, #fff698 0%, #0D5594 100%)!important;
+}
+
+.color4-color2-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #00396A 100%)!important;
+}
+
+.color4-color2-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #022658 100%)!important;
+}
+
+.color4-color3-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #CC9966 100%)!important;
+}
+
+.color4-color3-3{
+    background: linear-gradient(180deg, #fff698 0%, #B37A4C 100%)!important;
+}
+
+.color4-color3-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #9C6137 100%)!important;
+}
+
+.color4-color3-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #5A3825 100%)!important;
+}
+
+.color4-color4-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #FFFC98 100%)!important;
+}
+
+.color4-color4-3{
+    background: linear-gradient(180deg, #fff698 0%, #E9F559 100%)!important;
+}
+
+.color4-color4-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #EEDF27 100%)!important;
+}
+
+.color4-color4-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #D7CE00 100%)!important;
+}
+
+.color4-color5-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #AAE8C1 100%)!important;
+}
+
+.color4-color5-3{
+    background: linear-gradient(180deg, #fff698 0%, #62AA85 100%)!important;
+}
+
+.color4-color5-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #2E6C53 100%)!important;
+}
+
+.color4-color5-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #1B4D3B 100%)!important;
+}
+
+.color4-color6-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #FF99FF 100%)!important;
+}
+
+.color4-color6-3{
+    background: linear-gradient(180deg, #fff698 0%, #D773E5 100%)!important;
+}
+
+.color4-color6-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #B14BCA 100%)!important;
+}
+
+.color4-color6-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #8B26B2 100%)!important;
+}
+
+.color4-color7-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #FFA6A6 100%)!important;
+}
+
+.color4-color7-3{
+    background: linear-gradient(180deg, #fff698 0%, #F46F6F 100%)!important;
+}
+
+.color4-color7-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #FF4A4A 100%)!important;
+}
+
+.color4-color7-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #FF0000 100%)!important;
+}
+
+.color4-color8-2{
+    background: linear-gradient(180deg, #FFFC98 0%, #FCC0D7 100%)!important;
+}
+
+.color4-color8-3{
+    background: linear-gradient(180deg, #fff698 0%, #FF8EB8 100%)!important;
+}
+
+.color4-color8-4{
+    background: linear-gradient(180deg, #EEDF27 0%, #FF66A0 100%)!important;
+}
+
+.color4-color8-5{
+    background: linear-gradient(180deg, #D7CE00 0%, #FF488E 100%)!important;
+}
+
+.color5-color1-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #C2C2C2 100%)!important;
+}
+
+.color5-color1-3{
+    background: linear-gradient(180deg, #62AA85 0%, #828282 100%)!important;
+}
+
+.color5-color1-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #757575 100%)!important;
+}
+
+.color5-color1-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #5C5C5C 100%)!important;
+}
+
+
+.color5-color2-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #5893CD 100%)!important;
+}
+
+.color5-color2-3{
+    background: linear-gradient(180deg, #62AA85 0%, #0D5594 100%)!important;
+}
+
+.color5-color2-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #00396A 100%)!important;
+}
+
+.color5-color2-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #022658 100%)!important;
+}
+
+.color5-color3-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #CC9966 100%)!important;
+}
+
+.color5-color3-3{
+    background: linear-gradient(180deg, #62AA85 0%, #B37A4C 100%)!important;
+}
+
+.color5-color3-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #9C6137 100%)!important;
+}
+
+.color5-color3-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #5A3825 100%)!important;
+}
+
+.color5-color4-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #FFFC98 100%)!important;
+}
+
+.color5-color4-3{
+    background: linear-gradient(180deg, #62AA85 0%, #E9F559 100%)!important;
+}
+
+.color5-color4-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #EEDF27 100%)!important;
+}
+
+.color5-color4-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #D7CE00 100%)!important;
+}
+
+.color5-color5-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #AAE8C1 100%)!important;
+}
+
+.color5-color5-3{
+    background: linear-gradient(180deg, #62AA85 0%, #62AA85 100%)!important;
+}
+
+.color5-color5-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #2E6C53 100%)!important;
+}
+
+.color5-color5-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #1B4D3B 100%)!important;
+}
+
+.color5-color6-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #FF99FF 100%)!important;
+}
+
+.color5-color6-3{
+    background: linear-gradient(180deg, #62AA85 0%, #D773E5 100%)!important;
+}
+
+.color5-color6-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #B14BCA 100%)!important;
+}
+
+.color5-color6-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #8B26B2 100%)!important;
+}
+
+.color5-color7-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #FFA6A6 100%)!important;
+}
+
+.color5-color7-3{
+    background: linear-gradient(180deg, #62AA85 0%, #F46F6F 100%)!important;
+}
+
+.color5-color7-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #FF4A4A 100%)!important;
+}
+
+.color5-color7-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #FF0000 100%)!important;
+}
+
+.color5-color8-2{
+    background: linear-gradient(180deg, #AAE8C1 0%, #FCC0D7 100%)!important;
+}
+
+.color5-color8-3{
+    background: linear-gradient(180deg, #62AA85 0%, #FF8EB8 100%)!important;
+}
+
+.color5-color8-4{
+    background: linear-gradient(180deg, #2E6C53 0%, #FF66A0 100%)!important;
+}
+
+.color5-color8-5{
+    background: linear-gradient(180deg, #1B4D3B 0%, #FF488E 100%)!important;
+}
+
+
+.color6-color1-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #C2C2C2 100%)!important;
+}
+
+.color6-color1-3{
+    background: linear-gradient(180deg, #D773E5 0%, #828282 100%)!important;
+}
+
+.color6-color1-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #757575 100%)!important;
+}
+
+.color6-color1-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #5C5C5C 100%)!important;
+}
+
+
+.color6-color2-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #5893CD 100%)!important;
+}
+
+.color6-color2-3{
+    background: linear-gradient(180deg, #D773E5 0%, #0D5594 100%)!important;
+}
+
+.color6-color2-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #00396A 100%)!important;
+}
+
+.color6-color2-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #022658 100%)!important;
+}
+
+.color6-color3-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #CC9966 100%)!important;
+}
+
+.color6-color3-3{
+    background: linear-gradient(180deg, #D773E5 0%, #B37A4C 100%)!important;
+}
+
+.color6-color3-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #9C6137 100%)!important;
+}
+
+.color6-color3-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #5A3825 100%)!important;
+}
+
+.color6-color4-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #FFFC98 100%)!important;
+}
+
+.color6-color4-3{
+    background: linear-gradient(180deg, #D773E5 0%, #E9F559 100%)!important;
+}
+
+.color6-color4-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #EEDF27 100%)!important;
+}
+
+.color6-color4-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #D7CE00 100%)!important;
+}
+
+.color6-color5-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #AAE8C1 100%)!important;
+}
+
+.color6-color5-3{
+    background: linear-gradient(180deg, #D773E5 0%, #62AA85 100%)!important;
+}
+
+.color6-color5-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #2E6C53 100%)!important;
+}
+
+.color6-color5-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #1B4D3B 100%)!important;
+}
+
+.color6-color6-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #FF99FF 100%)!important;
+}
+
+.color6-color6-3{
+    background: linear-gradient(180deg, #D773E5 0%, #D773E5 100%)!important;
+}
+
+.color6-color6-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #B14BCA 100%)!important;
+}
+
+.color6-color6-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #8B26B2 100%)!important;
+}
+
+.color6-color7-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #FFA6A6 100%)!important;
+}
+
+.color6-color7-3{
+    background: linear-gradient(180deg, #D773E5 0%, #F46F6F 100%)!important;
+}
+
+.color6-color7-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #FF4A4A 100%)!important;
+}
+
+.color6-color7-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #FF0000 100%)!important;
+}
+
+.color6-color8-2{
+    background: linear-gradient(180deg, #FF99FF 0%, #FCC0D7 100%)!important;
+}
+
+.color6-color8-3{
+    background: linear-gradient(180deg, #D773E5 0%, #FF8EB8 100%)!important;
+}
+
+.color6-color8-4{
+    background: linear-gradient(180deg, #B14BCA 0%, #FF66A0 100%)!important;
+}
+
+.color6-color8-5{
+    background: linear-gradient(180deg, #8B26B2 0%, #FF488E 100%)!important;
+}
+
+.color7-color1-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #C2C2C2 100%)!important;
+}
+
+.color7-color1-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #828282 100%)!important;
+}
+
+.color7-color1-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #757575 100%)!important;
+}
+
+.color7-color1-5{
+    background: linear-gradient(180deg, #FF0000 0%, #5C5C5C 100%)!important;
+}
+
+
+.color7-color2-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #5893CD 100%)!important;
+}
+
+.color7-color2-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #0D5594 100%)!important;
+}
+
+.color7-color2-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #00396A 100%)!important;
+}
+
+.color7-color2-5{
+    background: linear-gradient(180deg, #FF0000 0%, #022658 100%)!important;
+}
+
+.color7-color3-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #CC9966 100%)!important;
+}
+
+.color7-color3-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #B37A4C 100%)!important;
+}
+
+.color7-color3-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #9C6137 100%)!important;
+}
+
+.color7-color3-5{
+    background: linear-gradient(180deg, #FF0000 0%, #5A3825 100%)!important;
+}
+
+.color7-color4-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #FFFC98 100%)!important;
+}
+
+.color7-color4-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #E9F559 100%)!important;
+}
+
+.color7-color4-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #EEDF27 100%)!important;
+}
+
+.color7-color4-5{
+    background: linear-gradient(180deg, #FF0000 0%, #D7CE00 100%)!important;
+}
+
+.color7-color5-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #AAE8C1 100%)!important;
+}
+
+.color7-color5-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #62AA85 100%)!important;
+}
+
+.color7-color5-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #2E6C53 100%)!important;
+}
+
+.color7-color5-5{
+    background: linear-gradient(180deg, #FF0000 0%, #1B4D3B 100%)!important;
+}
+
+.color7-color6-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #FF99FF 100%)!important;
+}
+
+.color7-color6-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #D773E5 100%)!important;
+}
+
+.color7-color6-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #B14BCA 100%)!important;
+}
+
+.color7-color6-5{
+    background: linear-gradient(180deg, #FF0000 0%, #8B26B2 100%)!important;
+}
+
+.color7-color7-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #FFA6A6 100%)!important;
+}
+
+.color7-color7-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #F46F6F 100%)!important;
+}
+
+.color7-color7-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #FF4A4A 100%)!important;
+}
+
+.color7-color7-5{
+    background: linear-gradient(180deg, #FF0000 0%, #FF0000 100%)!important;
+}
+
+.color7-color8-2{
+    background: linear-gradient(180deg, #FFA6A6 0%, #FCC0D7 100%)!important;
+}
+
+.color7-color8-3{
+    background: linear-gradient(180deg, #F46F6F 0%, #FF8EB8 100%)!important;
+}
+
+.color7-color8-4{
+    background: linear-gradient(180deg, #FF4A4A 0%, #FF66A0 100%)!important;
+}
+
+.color7-color8-5{
+    background: linear-gradient(180deg, #FF0000 0%, #FF488E 100%)!important;
+}
+
+
+.color8-color1-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #C2C2C2 100%)!important;
+}
+
+.color8-color1-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #828282 100%)!important;
+}
+
+.color8-color1-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #757575 100%)!important;
+}
+
+.color8-color1-5{
+    background: linear-gradient(180deg, #FF488E 0%, #5C5C5C 100%)!important;
+}
+
+
+.color8-color2-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #5893CD 100%)!important;
+}
+
+.color8-color2-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #0D5594 100%)!important;
+}
+
+.color8-color2-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #00396A 100%)!important;
+}
+
+.color8-color2-5{
+    background: linear-gradient(180deg, #FF488E 0%, #022658 100%)!important;
+}
+
+.color8-color3-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #CC9966 100%)!important;
+}
+
+.color8-color3-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #B37A4C 100%)!important;
+}
+
+.color8-color3-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #9C6137 100%)!important;
+}
+
+.color8-color3-5{
+    background: linear-gradient(180deg, #FF488E 0%, #5A3825 100%)!important;
+}
+
+.color8-color4-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #FFFC98 100%)!important;
+}
+
+.color8-color4-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #E9F559 100%)!important;
+}
+
+.color8-color4-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #EEDF27 100%)!important;
+}
+
+.color8-color4-5{
+    background: linear-gradient(180deg, #FF488E 0%, #D7CE00 100%)!important;
+}
+
+.color8-color5-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #AAE8C1 100%)!important;
+}
+
+.color8-color5-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #62AA85 100%)!important;
+}
+
+.color8-color5-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #2E6C53 100%)!important;
+}
+
+.color8-color5-5{
+    background: linear-gradient(180deg, #FF488E 0%, #1B4D3B 100%)!important;
+}
+
+.color8-color6-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #FF99FF 100%)!important;
+}
+
+.color8-color6-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #D773E5 100%)!important;
+}
+
+.color8-color6-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #B14BCA 100%)!important;
+}
+
+.color8-color6-5{
+    background: linear-gradient(180deg, #FF488E 0%, #8B26B2 100%)!important;
+}
+
+.color8-color7-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #FFA6A6 100%)!important;
+}
+
+.color8-color7-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #F46F6F 100%)!important;
+}
+
+.color8-color7-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #FF4A4A 100%)!important;
+}
+
+.color8-color7-5{
+    background: linear-gradient(180deg, #FF488E 0%, #FF0000 100%)!important;
+}
+
+.color8-color8-2{
+    background: linear-gradient(180deg, #FCC0D7 0%, #FCC0D7 100%)!important;
+}
+
+.color8-color8-3{
+    background: linear-gradient(180deg, #FF8EB8 0%, #FF8EB8 100%)!important;
+}
+
+.color8-color8-4{
+    background: linear-gradient(180deg, #FF66A0 0%, #FF66A0 100%)!important;
+}
+
+.color8-color8-5{
+    background: linear-gradient(180deg, #FF488E 0%, #FF488E 100%)!important;
+}
+
+/*--------------------------------------------------------------CONNECTIONS---------------------------------------------*/
+
+
+/*--------------------------------------------------------------SCROLLBAR---------------------------------------------*/
+
+
+.scroll1::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll1::-webkit-scrollbar-track {
+    background-color: #C2C2C2!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll1::-webkit-scrollbar-thumb {  
+    background: #828282!important;
+    border-radius: 5vh;
+}
+.scroll1::-webkit-scrollbar-thumb:hover {
+    background: #757575!important;
+}
+
+.scroll2::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll2::-webkit-scrollbar-track {
+    background-color: #5893CD!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll2::-webkit-scrollbar-thumb {  
+    background: #0D5594!important;
+    border-radius: 5vh;
+}
+.scroll2::-webkit-scrollbar-thumb:hover {
+    background: #00396A!important;
+}
+
+.scroll3::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll3::-webkit-scrollbar-track {
+    background-color: #CC9966!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll3::-webkit-scrollbar-thumb {  
+    background: #B37A4C!important;
+    border-radius: 5vh;
+}
+.scroll3::-webkit-scrollbar-thumb:hover {
+    background: #9C6137!important;
+}
+
+.scroll4::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+
+.scroll4::-webkit-scrollbar-track {
+    background-color: #FFFC98!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll4::-webkit-scrollbar-thumb {  
+    background: #E9F559!important;
+    border-radius: 5vh;
+}
+.scroll4::-webkit-scrollbar-thumb:hover {
+    background: #EEDF27!important;
+}
+
+.scroll5::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+
+.scroll5::-webkit-scrollbar-track {
+    background-color: #AAE8C1!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll5::-webkit-scrollbar-thumb {  
+    background: #62AA85!important;
+    border-radius: 5vh;
+}
+.scroll5::-webkit-scrollbar-thumb:hover {
+    background: #2E6C53!important;
+}
+
+.scroll6::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+
+.scroll6::-webkit-scrollbar-track {
+    background-color: #FF99FF!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll6::-webkit-scrollbar-thumb {  
+    background: #D773E5!important;
+    border-radius: 5vh;
+}
+.scroll6::-webkit-scrollbar-thumb:hover {
+    background: #B14BCA!important;
+}
+.scroll7::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll7::-webkit-scrollbar-track {
+    background-color: #FFA6A6!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll7::-webkit-scrollbar-thumb {  
+    background: #F46F6F!important;
+    border-radius: 5vh;
+}
+.scroll7::-webkit-scrollbar-thumb:hover {
+    background: #FF4A4A!important;
+}
+.scroll8::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll8::-webkit-scrollbar-track {
+    background-color: #FCC0D7!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll8::-webkit-scrollbar-thumb {  
+    background: #FF8EB8!important;
+    border-radius: 5vh;
+}
+.scroll8::-webkit-scrollbar-thumb:hover {
+    background: #FF66A0!important;
+}
+
+/*--------------------------------------------------------------SCROLLBAR---------------------------------------------*/
+.color1-box{
+    background-color: #C2C2C2!important;
+}
+.color2-box{
+    background-color: #5893CD!important;
+}
+.color3-box{
+    background-color: #CC9966 !important;
+}
+.color4-box{
+    background-color: #FFFC98 !important;
+}
+.color5-box{
+    background-color: #AAE8C1 !important;
+}
+.color6-box{
+    background-color: #FF99FF !important;
+}
+.color7-box{
+    background-color: #FFA6A6 !important;
+}
+.color8-box{
+    background-color: #FCC0D7 !important;
+
+}

@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* .note-left{
+    width: 50px;
+    height: 100vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+} */
+
+body{
+    overflow: hidden;
+}
+.note{
+    width:100%;
+    height: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.note-itself{
+    height: 100%;
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 12vw;
+    z-index: 2;
+}
+
+.note-path{
+    position: relative;
+    width:100%;
+    height:4%;
+}
+
+.note-path span{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vh;
+    text-decoration: underline;
+}
+
+.note-body{
+    position: relative;
+    width:100%;
+    height:88%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+/* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+
+.note-topPanel{
+    position: relative;
+    width:100.21111%;
+    height:12%;
+    /* margin-top: 4%; */
+    padding-top: 3% !important;
+    margin-bottom: 3%;
+    padding:0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+}
+#recordButton{
+    margin:0;
+}
+.note-topSettings{
+    display: flex;
+    flex-direction: row;
+}
+
+.subIcon{
+    height : 1vh!important;
+    padding: 0;
+}
+
+.note-btn{
+    font-size: 1vw;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px; 
+    height:2.2vw;
+}
+
+.note-btn:disabled{
+    color:  rgb(170, 170, 170);
+    opacity: 0.7;
+    animation: none!important;
+}
+
+.note-border{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+@keyframes press {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.85);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+.note-type1{
+    width:15vw;
+    padding: 4px;
+}
+
+.note-type2{
+    width:3vw;
+    text-align: center;
+}
+
+.note-type3{
+    padding: 0;
+    width:2vw;
+    background-color: #FFFFFF;
+}
+
+.note-type3:active {
+    animation: press 0.4s 1 linear;
+}
+
+.pressedRecordButton{
+    filter: invert(11%) sepia(90%) saturate(6724%) hue-rotate(2deg) brightness(91%) contrast(127%);
+}
+
+
+.note-topPanel button img{
+    height: 2vh;
+    width: 2vh;
+}
+
+
+.note-title {
+    width:95%;
+    height:15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6vh;
+    border:none;
+    display: block;
+    resize: none;
+    padding: 1vh 3vh;
+    padding-top: 4vh !important;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.note-crossLine{
+    position: relative;
+    background-color: black;
+    height: 1px;
+    width: 95%;
+    z-index: 1;
+    /* margin-top: 3vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.note-text{
+    width:95%;
+    height:67%;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    border:none;
+    resize: none;
+    padding: 1vh;
+    background-color: #FFFFFF;
+}
+
+
+.note-child{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.note-childBox{
+    z-index: 2;
+    position: relative;
+    min-width:16vw;
+    height:88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+/* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+}
+.note-childcontainer{
+    z-index: 2;
+    position: relative;
+    min-width:6vh;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+
+.note-width{
+    width:100%;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.note-width button{
+    height: 4vh;
+    width:4vh;
+    border-radius: 0.5rem;
+    border: none;
+    opacity: 0.8;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin:0 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note-width button:hover{
+    transform: scale(1.1);
+}
+.note-width button img {
+    height:2.5vh;
+    width:2.5vh;
+}
+
+.note-list{
+    height: 85%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.note-list li{
+    width: 16vw;
+    height:12%;
+    margin-top: 1vh;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0.5vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.note-list li:hover{
+    transform: scale(1.05);
+}
+
+.note-list li span{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vh;
+    width:calc(100% - 8vh);
+    padding: 0 3vh;
+}
+.note-list li button{
+
+    width:6vh;
+    height: 60%;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    margin-right: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none !important;
+}
+
+.note-list li button img{
+
+    height: 2.5vh;
+    width: 2.5vh;
+}
+
+.note-text video{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+.noteVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-text img{
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+}
+.noteImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.voicenoteText{
+    background-color: #f1f3f4;
+    width: 100%;
+}
+.noteTextbutton{
+    width: 5%;
+    float: right;
+    border: none;
+    max-height: 4.5vh;
+    border-radius: 50%;
+    background-color: #f1f3f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    margin-top: 1.3vh;
+}
+.noteTextbutton img{
+    width: 1.5vw;
+    height: 2.7vh;
+}
+
+b{
+    display: none;
+}
+
+font{
+    display: none;
+}
+
+.hiddenfile {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+   }
+
+.note-hover{
+    background-color: #e5e7e8 !important;
+}
+.note-text audio{
+    width: 92%;
+    object-fit: contain;
+    float: left;
+}
+.noteAudio{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: #f1f3f4;
+    border-radius: 50px;
+}

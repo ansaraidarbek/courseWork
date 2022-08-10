@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+    <title>RhytMe</title>
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/fixed/welcomeMenu.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/tasks.css">
+    <link rel="stylesheet" href="css/schedule.css">
+    <link rel="stylesheet" href="css/notes.css">
+    <link rel="stylesheet" href="css/note.css">
+    <link rel="stylesheet" href="css/addProject.css">
+    <link rel="stylesheet" href="css/fixed/music.css">
+    <style data="test" type="text/css"></style>  
+    <!-- <script type="module" src="./scripts/projects.js"></script> -->
+    <!-- <script type="module" src="./scripts/welcomeMenu.js"></script> -->
+    <!-- <script type="module" src="./scripts/profile.js"></script> -->
+    <!-- <script type="module" src="./scripts/tasks.js"></script> -->
+    <!-- <script type="module" src="./scripts/schedule.js"></script> -->
+    <!-- <script type="module" src="./scripts/notes.js"></script> -->
+    <!-- <script type="module" src="./scripts/note.js"></script> -->
+    <script>
+        window.$ = window.jQuery = require("./plugins/jquery.min.js");
+    </script>
+    <script type="module" src="./scripts/sidebar.js" defer></script>
+    <script src="./scripts/recorder.js"></script>
+    <!--css javascript-->
+</head>
+<body>
+    <!-- <audio controls>
+        <source src="" type="audio/mpeg"> 
+    </audio>  -->
+<!-------------------------------------------------------------------------------------------SIDEBAR------------------------------------------------------------------------------->
+    <section>
+    <div class="sidebar close" id="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-headerLeft">
+                <img src = "./icons/time.svg" class="bxs-time-five" alt="time"/>             
+                <span>ProductivityApp</span>
+            </div>
+            <img src = "./icons/menu.svg" class="bx-menu" id="btn" alt="menu"/>
+        </div>
+        <ul class="sidebar-list" id="sidebar-list">
+            <li class="sidebar_list" id = "sidebar-menu">
+                <a href="#">
+                    <img src = "./icons/menuicon.svg" alt="user"/>
+                    <span>Menu</span>
+                </a>
+                <span class="tooltip">Menu</span>
+            </li>
+            <li class="sidebar_list" id = sidebar-profile>
+                <a href="#">
+                    <img src = "./icons/user.svg" alt="user"/>
+                    <span>Profile</span>
+                </a>
+                <span class="tooltip">Profle</span>
+            </li>
+            <div class="sidebar-tools" id="sidebar-tools">
+                <!-- <li id="sidebar-tasks">
+                    <a href="#">
+                        <i class='bx bx-task'></i>
+                        <span>Tasks</span>
+                    </a>
+                    <span class="tooltip">Tasks</span>
+                </li>
+                <li id="sidebar-schedule">
+                    <a href="#">
+                        <i class='bx bx-calendar'></i>
+                        <span>Schedule</span>
+                    </a>
+                    <span class="tooltip">Schedule</span>
+                </li>
+                <li id="sidebar-notes">
+                    <a href="#">
+                        <i class='bx bx-notepad' ></i>
+                        <span>Notes</span>
+                    </a>
+                    <span class="tooltip">Notes</span>
+                </li> -->
+            </div>
+            <li id="sidebar-settings" class="sidebar_list">
+                <a href="#">
+                    <img src = "./icons/cog.svg" alt="setting"/>
+                    <span>Setting</span>
+                </a>
+                <span class="tooltip">Setting</span>
+                <!-------------------------------------------------------------------------------------------Settings------------------------------------------------------------------------------->
+
+            
+            <div class = "modal-container" id = "modal-container">
+                <div class="container" id="container">
+
+                    <!-------------------------------------------------------------------------------------------LEFT------------------------------------------------------------------------------->
+                    <div class="settings_background_1"></div>
+                    <div class="settings_background_2"></div>
+                    <div class="settings_background_3"></div>
+                    <div class="settings_circle_background_1"></div>
+                    <div class="settings_circle_background_2"></div>
+                    <div class="set-left">
+                        <nav class = "icons">
+                            <a href="#" id="set-profile-icon">
+                                <img src = "./icons/userSettings.svg" alt="user"/>
+                                <p class="set-link-name">Profile</p>
+                            </a>
+                            
+                            <a href="#" id = "set-add-remove-icon">
+                                <img src = "./icons/checkSettings.svg" alt="user"/>
+                                <p class="set-link-name">Add/Remove</p>
+                            </a>
+
+                            <a href="#" id = "set-schedule-time-icon">
+                                <img src = "./icons/scheduleTime.svg" alt="user"/>
+                                <p class="set-link-name">Schedule Time Selector</p>
+                            </a>
+                            
+
+                            <a href="#" class = "set-close" id = "set-close">
+                                <img src = "./icons/closeSettings.svg" alt="user"/>
+                                <p class="set-link-name">Close</p>
+                            </a>
+
+                        </nav>
+                    </div>
+
+                    <!-------------------------------------------------------------------------------------------/LEFT------------------------------------------------------------------------------->
+
+
+                    <!-------------------------------------------------------------------------------------------RIGHT------------------------------------------------------------------------------->
+                    <div class="settings-window" id="settings-window">
+                        <div class="settings-container">
+                            <div class = "image" id = "image">
+                                <img src="images/profile-image.jpg" alt="profileImg">
+                            </div>
+                
+                            <div class="set-right">    
+                                <h1>Profile Information</h1>
+                                <h2 class = "name">Name</h2>
+                                <input type="text"
+                                id="name" class="input" value="Miras Kaidullayev">
+                
+                                <h2>Surname</h2>
+                                <input type="text"
+                                id="surname" class="input" value="Kaidullayev">
+                
+                                <h2>Email</h2>
+                                <input type="text"
+                                id="email" class="input" value="miras.kaidullayev@nu.edu.kz" readonly="readonly">
+                
+                                <h2>Password</h2>
+                                <input type="password"
+                                id="password" class="input" value="123456789"> 
+                                <div class="button-wrap">   
+                                    <button id="update" class="note-btn color1-2">Update</button>  
+                                </div>            
+                        </div>
+                    </div>
+                    </div>
+                    <!-------------------------------------------------------------------------------------------/RIGHT------------------------------------------------------------------------------->
+                </div>
+            </div>
+            </li>
+            <li class="sidebar_list" id = "sidebar-addProject">
+                <a href="#">
+                    <img src = "./icons/plus.svg" alt="addProject"/> 
+                    <span>Add Project</span>
+                </a>
+                <span class="tooltip">addProject</span>
+                <div class = "addProjectcontainer" id = "project-container">
+
+                    <div class="addProject" id = "pContainer">
+                        
+                        <div class="titleBox">
+                            Project Settings
+                        </div>
+                        <div class="choiceBar">
+                                <button class="addProjectButton" id = "addProjectButton">Add the Project</button>
+                                <button class="selectProjectButton" id = "selectProjectButton">Select Project</button>
+                        </div>
+                        <!---------------------- Main Add Project -------------------------->
+                        <div class="projectWindow" id = "projectWindow">
+ 
+                        </div>
+                        <div class="addProjectbackground_1"></div>
+                        <div class="addProjectbackground_2"></div>
+                        <div class="addProjectbackground_3"></div>
+                        <div class="addProjectbackground_4"></div>
+                        <!-- <div class="mainProjectWindow" id = "mainProjectWindow">
+                            <div class="firstRow">
+                                <div class="projectNameAdd">
+                                    Name
+                                <input 
+                                    type="text" 
+                                    id="emailPlaceholder"
+                                    placeholder="Project Name" 
+                                    autocomplete="off"
+                                />
+                                </div>
+                                <div class="projectCodeAdd">
+                                    Project Code
+                                    <input 
+                                    type="text" 
+                                    id="emailPlaceholder"
+                                    placeholder="Project Code" 
+                                    autocomplete="off"
+                                />
+                                </div>
+                            </div>
+                            <div class="secondRow">
+                                <div class="projectColorAdd">
+                                    Color
+                                    <div class="projectColorRow">
+                                        <div class="projectColor color1-2"></div>
+                                        <div class="projectColor color2-2">
+                                            <img src = "./icons/Black_check.svg" alt="checkProject" class = "style"/>
+                                        </div>
+                                        <div class="projectColor color1-2"></div>
+                                        <div class="projectColor color1-2"></div>
+                                        <div class="projectColor color1-2"></div>
+                                        <div class="projectColor color1-2"></div>
+                                        <div class="projectColor color1-2"></div>
+                                        <div class="projectColor color1-2"></div>
+                                    </div>
+                                </div>
+                                <div class="projectStyleAdd">                        
+                                    Project Style
+                                    <input 
+                                    type="text" 
+                                    id="emailPlaceholder"
+                                    placeholder="Project Style" 
+                                    autocomplete="off"
+                                /></div>
+                            </div>
+                        </div>  -->
+            
+                        <!---------------------- Main Add Project -------------------------->
+                        <!---------------------- Main Select Project -------------------------->
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="sidebar-bottom">
+            <div class="sidebar-bottom" id ="sidebar-bottom">
+                <div class="sidebar-profile">
+                    <img src="images/profile-image.jpg" alt="profileImg"> 
+                    <span id="profileInfo"></span>
+                </div>
+                <i class='bx bx-log-out' id="log_out" ></i>
+                <img src = "./icons/logOut.svg" id="log_out" alt="profileImg"/>
+            </div>
+        </div>
+    </div>
+    </section>
+<!-------------------------------------------------------------------------------------------SIDEBAR------------------------------------------------------------------------------->
+
+
+    <div class="background_circle_1" id="circle1"></div>
+    <div class="background_circle_2" id="circle2"></div>
+    <div class="background_circle_3" id="circle3"></div>
+    <div class="background_circle_4" id="circle4"></div>
+    <div class="background_color_circle_1" id="circle5"></div>
+    <div class="background_color_circle_2" id="circle6"></div>
+
+<!-------------------------------------------------------------------------------------------WELCOME-MENU------------------------------------------------------------------------------->
+    <img class="welcomeMenu-img" src = "images/menuImage.jpg" alt="registerImg" id="-1img"/>
+    <div class="welcomeMenu" id="-1">
+        <div class="projects">
+            <div class="projects-container" id="projects-container-1">
+                <div class="outerBox">
+                    <div class="rotate" id="rotate-1">
+                    </div>
+                    <div class="mainProject" id="mainProject-1">
+                    </div>
+                </div>
+                <div class="forBest" id="forBest-1">
+                    <ul class="otherProjects" id="otherProjects-1">
+                        <li>Bi</li>
+                        <li>Cd</li>
+                        <li>Dr</li>
+                        <li>Dr</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="welcomeMenu-body">
+            <h1>Welcome to the app</h1>  
+            <h2 id="user-info">Name Surname</h2> 
+        </div>
+        <div class="welcomeMenu-lowerBody">
+            <h3> Add the preferences:</h3>
+            <div class="welcomeMenu-options" id="menu-options">
+                <div class="welcomeMenu-toolsTasks">
+                    <label class="welcomeMenu-main">Tasks
+                        <input 
+                        type="checkbox"
+                        id="checkBox1"
+                        >
+                        <span class="welcomeMenu-geekmark1"></span>
+                    </label>
+                </div>
+                <div class="welcomeMenu-toolsNotes">
+                    <label class="welcomeMenu-main">Notes
+                        <input 
+                        type="checkbox"
+                        id="checkBox2"
+                        >
+                        <span class="welcomeMenu-geekmark2"></span>
+                    </label>
+                </div>
+                <div class="welcomeMenu-toolsSchedule">
+                    <label class="welcomeMenu-main">Schedule
+                        <input 
+                        type="checkbox"
+                        id="checkBox3"
+                        >
+                        <span class="welcomeMenu-geekmark3"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="welcomeMenu-button">
+                <button id="apply-button">Apply</button>
+            </div>
+        </div> 
+    </div>
+<!-------------------------------------------------------------------------------------------WELCOME-MENU------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------MENU------------------------------------------------------------------------------->
+<div class="menu" id="0">
+    <div class="menu-title">
+        Menu
+    </div>
+    <div class="projects">
+        <div class="projects-container" id="projects-container0">
+            <div class="outerBox">
+                <div class="rotate" id="rotate0">
+                </div>
+                <div class="mainProject" id="mainProject0">
+                </div>
+            </div>
+            <div class="forBest" id="forBest0">
+                <ul class="otherProjects" id="otherProjects0">
+                    <li>Bi</li>
+                    <li>Cd</li>
+                    <li>Dr</li>
+                    <li>Dr</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="menu-body">
+        <div class="menufirstBlock">
+            <div class="menustudyBlock" id="menuLeft1">
+                <div class="menuimagestorage">
+                    <img src = "./icons/bullseye.png" alt="menustudy"/>
+                </div>
+                <div class="menustudytext">
+                    Study Mode
+                    <p>Turn Off</p>
+                </div>
+                <div class="menubutton">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="menuslider round"></span>
+                    </label>
+                </div>
+                
+    
+            </div>
+            <div class="menumusicBlock" id="menuLeft2">
+                <div class="music-container play" id="music-container">
+                    <div class="music-info">
+                      <h4 id="title"></h4>
+                      <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                      </div>
+                    </div>
+              
+                    <audio id="audio"></audio>
+              
+                    <div class="img-container">
+                      <img alt="music-cover" id="cover" />
+                    </div>
+                    <div class="navigation">
+                      <button id="prev" class="action-btn">
+                        <img src="./icons/menuPrev.svg" alt="menuPrev">
+                      </button>
+                      <button id="play" class="action-btn action-btn-big">
+                        <img src="./icons/menuPlay.svg" alt="menuPlay">
+                      </button>
+                      <button id="next" class="action-btn">
+                        <img src="./icons/menuNext.svg" alt="menuNext">
+                      </button>
+                    </div>
+                  </div>
+            </div>
+            <div class="menuemptyBlock" id="menuLeft3">
+    
+            </div>
+            <!-- <div class="menupreferencenameBlock " id="menuLeft4">
+                Preferences
+            </div>
+            <div class="menupreferenceBlock " id="menuLeft5">
+                <div class="menuButton">   
+                    <button id="menutasks" class="menuprefButton">Tasks</button>  
+                    <button id="menunotes" class="menuprefButton">Notes</button>  
+                    <button id="menuschedule" class="menuprefButton">Schedule</button>  
+                </div> 
+                <div class="menubutton-wrap">   
+                    <button id="menuupdate" class="menubtn">Add New</button>  
+                    <button id="menuupdate" class="menubtn">Remove</button>  
+                </div>   
+            </div> -->
+        </div>
+        <div class="menuthirdBlock">
+            <div class="menuscheduleBlock " id="menuRight1">
+                <div class="menuscheduleHeader scroll1">
+                    <div class="menuweekDay"id="menuScheduleFine0">
+                        <span class="menudate" id="menuSchedule0">8</span>
+                        <span class = "menuweek" id="menuScheduleDay0">Mon</span>
+                    </div>
+                    <div class="menuweekDay"id="menuScheduleFine1">
+                        <span class="menudate"id="menuSchedule1">9</span>
+                        <span class = "menuweek"id="menuScheduleDay1">Tue</span>
+                    </div>
+                    <div class="menuweekDay"id="menuScheduleFine2">
+                        <span class="menudate"id="menuSchedule2">10</span>
+                        <span class = "menuweek"id="menuScheduleDay2">Wed</span>
+                    </div>
+                    <div class="menuweekDay"id="menuScheduleFine3">
+                        <span class="menudate"id="menuSchedule3">11</span>
+                        <span class = "menuweek"id="menuScheduleDay3">Thu</span>
+                    </div>
+                    <div class="menuweekDay"id="menuScheduleFine4">
+                        <span class="menudate"id="menuSchedule4">12</span>
+                        <span class = "menuweek"id="menuScheduleDay5">Fri</span>
+                    </div>
+                </div>
+                <div class="menuschedule-dayCalendar" id="menuScheduleColumn">
+                    <div class="menuschedule-blockTime" id="menuColumn">
+                        <div class="menuschedule-time menuplace1">
+                            <span>7:00</span>
+                        </div>
+                        <div class="menuschedule-time menuplace2">
+                            <span>8:00</span>
+                        </div>
+                        <!-- <div class="menuschedule-timeschedule-show" style="position: absolute; top: 15vh;">
+                            <span>08:00</span>
+                        </div> -->
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 21vh;">
+                            <span>9:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 31vh;">
+                            <span>10:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 41vh;">
+                            <span>11:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 51vh;">
+                            <span>12:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 61vh;">
+                            <span>13:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 71vh;">
+                            <span>14:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 81vh;">
+                            <span>15:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 91vh;">
+                            <span>16:00</span>
+                        </div>
+                        <div class="menuschedule-time schedule-show" style="position: absolute; top: 101vh;">
+                            <span>17:00</span>
+                        </div>
+                        <div class="menuschedule-time" style="position: absolute; top: 111vh;">
+                            <span>18:00</span>
+                        </div>
+                        <div class="menuschedule-time" style="position: absolute; top: 121vh;">
+                            <span>19:00</span>
+                        </div>
+                        <div class="menuschedule-time" style="position: absolute; top: 131vh;">
+                            <span>20:00</span>
+                        </div>
+                        <div class="menuschedule-time" style="position: absolute; top: 141vh;">
+                            <span>21:00</span>
+                        </div>
+                    </div>
+                    <div class="schedule-invisible" id="menuhorizontalLines">
+                        <!-- <div class="schedule-line1 color1-3"></div>
+                        <div class="schedule-line2 color1-2"></div> -->
+                        <!-- <div class="menuschedule-line color1-border" style="top: 4vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 14vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 24vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 34vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 44vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 54vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 64vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 74vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 84vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 94vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 104vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 114vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 124vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 134vh;"></div>
+                        <div class="menuschedule-line color1-border" style="top: 144vh;"></div> -->
+                        <div class="menuTask" style="top: 4vh; height:10vh;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menunotificationBlock " id="menuRight2">
+                <div class="menuimage">
+                    <img src = "./icons/time-left.png" alt="menustudy"/>
+                </div>
+                <div class="menunotification">
+                    Go to Gym
+                    <p>Today, 4 pm</p>
+                </div>
+            </div>
+        </div>
+        <div class="menucenterBlock">
+            <div class="menusecondBlock">
+                <div class="menufirstNoteBlock " id="menuMiddle1">
+                    <div class = "menunoteHeader"># 1</div>
+                    <div class = "menunoteProject" id="menuFirstProject">CSCI 235</div>
+                    <div class = "menunoteName" id="menuFirstTitle">What is Lorem Ipsum?</div>
+                </div>
+                <div class="menusecondNoteBlock" id="menuMiddle2">
+                    <div class = "menunoteHeader"># 2</div>
+                    <div class = "menunoteProject" id="menuSecondProject">CSCI 125</div>
+                    <div class = "menunoteName" id="menuSecondTitle">Where does it come from ?</div>
+                </div>
+                <div class="menutaskBlock" id="menuMiddle3">
+                    <div class="menutaskHeader" id="menuMiddle4">
+                        <span class = "menutasks-giant" id = "menuDate">Sunday, 30</span>
+                        <br>
+                        <span class = "menutasks-month" id="menuMonth">January</span>
+                    </div>
+                    <div id="menumidAddTask">
+                        <button class="menu-addNewTask" id="menuAddNewTask" style="display: block;">
+                            <img src="./icons/plusTasks.svg" alt="addTasks">
+                        </button>
+                    </div>
+                    <div class="menu-bodyBody" id="middleTask">
+                        <ul class="menutasks-list scroll1" id="menumiddleTaskList">
+                            <li class="menutasks-element tasks-mid">
+                                <button class="menutasks-done color1-color1-3"></button>
+                                <div class="menutasks-text">
+                                    <span>kek</span>
+                                    <p></p>
+                                </div>
+                            </li>
+                            <li class="menutasks-element tasks-mid color1-color1-3">
+                                <button class="menutasks-done color1-color1-3">
+                                    <img src="./icons/checkTasks.svg" alt="menucheckTasks">
+                                </button>
+                                <div class="menutasks-text">
+                                    <span>kek</span>
+                                    <p>completed</p>
+                                </div>
+                                <button class="menutasks-delete color1-color1-3">
+                                    <img src="./icons/deleteTasks.svg" alt="menudeleteTasks">
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------MENU------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------PROFILE------------------------------------------------------------------------------->
+    <div class="profile" id="1">
+        <div class="profile-content color-4">
+            <div class="profile-image">
+                <img src="images/profile-image.jpg" alt="profile-image">
+            </div>
+            <div class="profile-info">
+                <p class="profile-name" id="fullName">Kuanysh Tokayev</p>
+                <!-- <p class="age">21 years, male</p>
+                <p>
+                    <strong>About me: </strong>
+                    A 21 years old Nazarbayev university student. 
+                </p>
+                <p>
+                    <strong>Date of birth: </strong>
+                    04.07.2000            
+                </p>
+                <p>
+                    <strong>Place of study: </strong>
+                    Nazarbayev University           
+                </p>
+                <p>
+                    <strong>Place of work:  </strong>
+                    Lavash centre            
+                </p> -->
+            </div>
+        </div>
+    </div>
+<!-------------------------------------------------------------------------------------------PROFILE------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------TASKS------------------------------------------------------------------------------->
+    <div class="tasks" id="2">
+        <!-- <span class="toolName">ToDo</span> -->
+        <div class="projects">
+            <div class="projects-container" id="projects-container2">
+                <div class="outerBox">
+                    <div class="rotate" id="rotate2">
+                    </div>
+                    <div class="mainProject" id="mainProject2">
+                    </div>
+                </div>
+                <div class="forBest" id="forBest2">
+                    <ul class="otherProjects" id="otherProjects2">
+                        <li>Bi</li>
+                        <li>Cd</li>
+                        <li>Dr</li>
+                        <li>Dr</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tasks-body">
+            <div class="tasks-near tasks-same" id="dayLeft">
+                <div class="tasks-bodyHeader" id="leftFront">
+                    <span class="tasks-bigger" id="leftTaskHeaderTop">Wednesday, 7th</span><br>
+                    <span id="leftTaskHeaderBottom">September</span>
+                </div>
+                <div class="tasks-bodyBody id="leftTask">
+                    <ul class="tasks-list" id="leftTaskList">
+                        <li class="tasks-element tasks-mid color1-2">
+                            <button class="tasks-done color1-2">
+                                <img src="./icons/checkTasks.svg" alt="checkTasks">
+                            </button>
+                            <span>Make homework</span>
+                        </li>
+                        <li class="tasks-element tasks-mid color1-2">
+                            <button class="tasks-done color1-2">
+                                <img src="./icons/checkTasks.svg" alt="checkTasks">
+                            </button>
+                            <span>choose color1 for project</span>
+                        </li>
+                        <li class="tasks-element tasks-mid color1-2">
+                            <button class="tasks-done color1-2">
+                                <img src="./icons/checkTasks.svg" alt="checkTasks">
+                            </button>
+                            <span>go to movie night</span>
+                        </li>
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-2"></button>
+                            <span>Decide which style to use</span>
+                        </li>
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-2"></button>
+                            <span>Eat a mayo</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tasks-bodyEnd">
+                    <span id="leftTaskEnd" class="tasks-size">3/5</span> 
+                    <span>Tasks</span>
+                </div>
+            </div>
+            <div class="tasks-center tasks-same" id="middleBack">
+                <div class="tasks-bodyHeader" id="middleFront">
+                    <span class="tasks-giant" id="middleTaskHeaderTop">Thursday, 8th</span><br>
+                    <span class="tasks-month" id="middleTaskHeaderBottom">September</span>
+                </div>
+                <div id="midAddTask">
+                    <button class="tasks-addNewTask" id="addNewTask">
+                        <img src="./icons/plusTasks.svg" alt="addTasks">
+                    </button>
+                </div>
+                <div class="tasks-bodyBody" id="middleTask">
+                    <ul class="tasks-list" id="middleTaskList">
+                        <li class="tasks-element tasks-mid color1-3">
+                            <button class="tasks-done color1-3">
+                                <img src="./icons/checkTasks.svg" alt="checkTasks">
+                            </button>
+                            <div class="tasks-text">
+                                <span>Drive to mall</span>
+                                <p>completed</p>
+                            </div>
+                            <button class="tasks-delete color1-3">
+                                <img src="./icons/deleteTasks.svg" alt="deleteTasks">
+                            </button>
+                        </li>
+                        <li class="tasks-element tasks-mid color1-3">
+                            <button class="tasks-done color1-3">
+                                <img src="./icons/checkTasks.svg" alt="checkTasks">
+                            </button>
+                            <div class="tasks-text">
+                                <span>Study physics tonight</span>
+                                <p>completed</p>
+                            </div>
+                            <button class="tasks-delete color1-3">
+                                <img src="./icons/deleteTasks.svg" alt="deleteTasks">
+                            </button>
+                        </li>
+                        <li class="tasks-element tasks-mid color1-3">
+                            <button class="tasks-done color1-3 tasks-hover">
+                                <img src="./icons/checkTasks.svg" alt="checkTasks">
+                            </button>
+                            <div class="tasks-text">
+                                <span>Go to bar with friends</span>
+                                <p>in progress</p>
+                            </div>
+                            <button class="tasks-delete color1-3 tasks-hover">
+                                <img src="./icons/deleteTasks.svg" alt="deleteTasks">
+                            </button>
+                        </li>
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-3"></button>
+                            <div class="tasks-text">
+                                <span>Drive to mall</span>
+                            </div>
+                            <button class="tasks-delete color1-2">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                        </li>
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-3"></button>
+                            <div class="tasks-text">
+                                <span>Eat ketchup</span>
+                            </div>
+                            <button class="tasks-delete color1-2">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tasks-bodyEnd">
+                    <span id="middleTaskEnd" class="tasks-size">3/5</span> 
+                    <span >Tasks</span>
+                </div>
+            </div>
+            <div class="tasks-near tasks-same" id="dayRight">
+                <div class="tasks-bodyHeader" id="rightFront">
+                    <span class="tasks-bigger" id="rightTaskHeaderTop">Friday, 9th</span><br>
+                    <span id="rightTaskHeaderBottom">September</span>
+                </div>
+                <div class="tasks-bodyBody" id="rightTask">
+                    <ul class="tasks-list" id="rightTaskList">
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-2"></button>
+                            <span>clean room</span>
+                        </li>
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-2"></button>
+                            <span>go to job</span>
+                        </li>
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-2"></button>
+                            <span>find a food</span>
+                        </li>
+                        <li class="tasks-element tasks-mid">
+                            <button class="tasks-done color1-2"></button>
+                            <span>check new features</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tasks-bodyEnd">
+                    <span id="rightTaskEnd" class="tasks-size">0/4</span> 
+                    <span>Tasks</span>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <span class="headerText">ToDo</span>
+            <div class="bottomLine"></div>
+        </div>
+    </div>
+<!-------------------------------------------------------------------------------------------TASKS------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------SCHEDULE------------------------------------------------------------------------------->
+    <div class="schedule" id="3">
+        <div class="schedule-center">
+            <!-- <span class="toolName">Schedule</span> -->
+            <div class="schedule-monthYear" >
+                <h1 id="monthYear">November 2021</h1>
+                <button id="leftButton">
+                    <img src="./icons/leftSchedule.svg" alt="leftArrow">
+                </button>
+                <button id="rightButton">
+                    <img src="./icons/rightSchedule.svg" alt="rightArrow">
+                </button>
+            </div>
+            <div class = "schedule-weekCalendar supScroll" id="weekCalendar" >
+                <!-- <div class="blockTop">
+                    <div class="blockSpace"></div>
+                    <div class="schedule-blockColumnTop">
+                        <span id="Day1">Moday, 24</span>
+                    </div>
+                    <div class="schedule-blockColumnTop">
+                        <span id="Day2">Tuesday, 25</span>
+                    </div>
+                    <div class="schedule-blockColumnTop">
+                        <span id="Day3">Wednesday, 26</span>
+                    </div>
+                    <div class="schedule-blockColumnTop">
+                        <span id="Day4">Thursday, 27</span>
+                    </div>
+                    <div class="schedule-blockColumnTop">
+                        <span id="Day5">Friday, 28</span>
+                    </div>
+                    <div class="schedule-blockColumnTop">
+                    <span id="Day6">Saturday, 29</span>
+                    </div> 
+                    <div class="schedule-blockColumnTop">
+                        <span id="Day7">Sunday, 30</span>
+                    </div>
+                </div> -->
+                <div class="schedule-lineVert1" id="line1"></div>
+                <div class="schedule-lineVert2" id="line2"></div>
+                <div class="schedule-lineVert3" id="line3"></div>
+                <div class="schedule-lineVert4" id="line4"></div>
+                <div class="schedule-lineVert5" id="line5"></div>
+                <div class="schedule-lineVert6" id="line6"></div>
+                <div class="schedule-lineVert7" id="line7"></div>
+                <div class="schedule-lineVert8" id="line8"></div>
+                <div class="schedule-invisible" id="horizontalLines">
+                    <!-- <div class="schedule-line1 color1-3"></div>
+                    <div class="schedule-line2 color1-2"></div> -->
+                </div>
+                <div class="schedule-blockTime color1-2" id="column0">
+                    <div class="schedule-blockSpace schedule-height color1-3" id="dayBlock0"></div>
+                    <div class="schedule-time place1">
+                        <span>06:00</span>
+                    </div>
+                    <div class="schedule-time place2">
+                        <span>07:00</span>
+                    </div>
+                
+                </div>
+                <div class="schedule-blockColumnBody" id="column1">
+                    <div class="schedule-blockColumnTop schedule-height color1-3" id="dayBlock1">
+                        <span id="Day1">Monday, 24</span>
+                    </div>
+                    <div class="schedule-timestamp">
+                        <div class="schedule-arrow"></div>
+                        <p>11:22</p>
+                    </div>
+                </div>
+                <div class="schedule-blockColumnBody" id="column2">
+                    <div class="schedule-blockColumnTop schedule-height color1-3" id="dayBlock2">
+                        <span id="Day2">Tuesday, 25</span>
+                    </div>
+                </div>
+                <div class="schedule-blockColumnBody" id="column3">
+                    <div class="schedule-blockColumnTop schedule-height color1-3" id="dayBlock3">
+                        <span id="Day3">Wednesday, 26</span>
+                    </div>
+                </div>
+                <div class="schedule-blockColumnBody" id="column4">
+                    <div class="schedule-blockColumnTop schedule-height color1-3" id="dayBlock4">
+                        <span id="Day4">Thursday, 27</span>
+                    </div>
+                    <!-- <div class="color1-2 task" style="position: absolute; cursor:pointer; width:100%; top:60vh; height:6vh; z-index:1;">
+                        <img class = "closeButton" id="closeBtn" src="https://img.icons8.com/ios-glyphs/240/ffffff/delete-sign.png"/>
+                        <span>New task</span>
+                    </div> -->
+                </div>
+                <div class="schedule-blockColumnBody" id="column5">
+                    <div class="schedule-blockColumnTop schedule-height color1-3" id="dayBlock5">
+                        <span id="Day5">Friday, 28</span>
+                    </div>
+                </div>
+                <div class="schedule-blockColumnBody" id="column6">
+                    <div class="schedule-blockColumnTop schedule-height color1-3" id="dayBlock6">
+                        <span id="Day6">Saturday, 29</span>
+                    </div> 
+                </div>
+                <div class="schedule-blockColumnBody" id="column7">
+                    <div class="schedule-blockColumnTop schedule-height color1-3" id="dayBlock7">
+                        <span id="Day7">Sunday, 30</span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="schedule-finishLine color1-2" id="finishLine"></div>
+            </div>
+            <!-- <div class="buttons">
+                <button id="schedule-prevButton" class="color1-2">schedule-Prev</button>
+                <span>Week</span>
+                <button id="nextButton" class="color1-2">Next</button>
+            </div> -->
+            <div class="headerBottom">
+                <div class="headerBottomBot">
+                    <span class="headerText">Schedule</span>
+                    <button id="scheduleUploadButton">
+                        <img src="./icons/downloadSchedule.svg" alt="download">
+                    </button>
+                    <div class="hiddenfile" id="hiddenFile">
+                    </div>
+                </div>
+                <div class="bottomLine"></div>
+            </div>
+        </div>
+
+        <div class="schedule-right">
+            <div class="projects">
+                <div class="projects-container" id="projects-container3">
+                    <div class="outerBox">
+                        <div class="rotate" id="rotate3">
+                        </div>
+                        <div class="mainProject" id="mainProject3">
+                        </div>
+                    </div>
+                    <div class="forBest" id="forBest3">
+                        <ul class="otherProjects" id="otherProjects3">
+                            <li>Bi</li>
+                            <li>Cd</li>
+                            <li>Dr</li>
+                            <li>Dr</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule-calendar" id="calendar">
+                    <div class="schedule-calendarHeader">
+                    <h3 id="calendarTopLeft">Thursday 16th</h3>
+                    <h3 id="calendarTopRight">August 2021</h3>
+                    </div>
+                    <div class="schedule-calendarBody ">
+                        <ul class="schedule-calendarBodyDays" id="calendar_body--days">
+                            <li>mon</li>
+                            <li>tue</li>
+                            <li>wed</li>
+                            <li>thu</li>
+                            <li>fri</li>
+                            <li>sat</li>
+                            <li>sun</li>
+                        </ul>
+                        <ul class="schedule-calendarBodyDates" id="calendar_body--dates">
+                            <li id="r1c1" class="schedule-prev">29</li>
+                            <li id="r1c2" class="schedule-prev">30</li>
+                            <li id="r1c3">1</li>
+                            <li id="r1c4">2</li>
+                            <li id="r1c5">3</li>
+                            <li id="r1c6">4</li>
+                            <li id="r1c7">5</li>
+                            <li id="r2c1">6</li>
+                            <li id="r2c2">7</li>
+                            <li id="r2c3">8</li>
+                            <li id="r2c4">9</li>
+                            <li id="r2c5">10</li>
+                            <li id="r2c6">11</li>
+                            <li id="r2c7">12</li>
+                            <li id="r3c1" class="schedule-active">13</li>
+                            <li id="r3c2" class="schedule-active_week">14</li>
+                            <li id="r3c3" class="schedule-active_week">15</li>
+                            <li id="r3c4" class="schedule-active_week">16</li>
+                            <li id="r3c5" class="schedule-active_week">17</li>
+                            <li id="r3c6" class="schedule-active_week">18</li>
+                            <li id="r3c7" class="schedule-active_week">19</li>
+                            <li id="r4c1">20</li>
+                            <li id="r4c2">21</li>
+                            <li id="r4c3">22</li>
+                            <li id="r4c4">23</li>
+                            <li id="r4c5">24</li>
+                            <li id="r4c6">25</li>
+                            <li id="r4c7">26</li>
+                            <li id="r5c1">27</li>
+                            <li id="r5c2">28</li>
+                            <li id="r5c3">29</li>
+                            <li id="r5c4">30</li>
+                            <li id="r5c5">31</li>
+                            <li id="r5c6" class="schedule-prev">1</li>
+                            <li id="r5c7" class="schedule-prev">2</li>
+                            <li id="r6c1" class="schedule-prev">3</li>
+                            <li id="r6c2" class="schedule-prev">4</li>
+                            <li id="r6c3" class="schedule-prev">5</li>
+                            <li id="r6c4" class="schedule-prev">6</li>
+                            <li id="r6c5" class="schedule-prev">7</li>
+                            <li id="r6c6" class="schedule-prev">8</li>
+                            <li id="r6c7" class="schedule-prev">9</li>
+                        </ul> 
+                    </div>
+                    <div class="schedule-calendarFooter">
+                        <p id="hoursMinutes">11:35 am</p>
+                        <p id="temperature">12<sup>o</sup> C</p>       
+                    </div>
+            </div>
+            <div class="schedule-tasks" id="task-list">
+                <ul class="schedule-todayTaskList" id="todayTaskList">
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>desentegrator</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>hello world</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>fuck yourself</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>desentegrator</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>hello world</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>fuck yourself</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>desentegrator</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>hello world</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>fuck yourself</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>desentegrator</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>hello world</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                    <div class="schedule-todayTaskListElem color1-2">
+                        <span>fuck yourself</span>
+                        <button class="color1-2">
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </div>
+                </ul>
+            </div>
+            <button class="schedule-addTask color1-2" id="addTask">
+                <img src = "./icons/plusTasks.svg" alt="addButton"/>
+                <span>ADD</span>
+            </button>
+        </div>
+
+    </div>
+<!-------------------------------------------------------------------------------------------SCHEDULE------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------NOTES------------------------------------------------------------------------------->
+<div class="notes" id="4">
+        <!-- <span class="toolName">Notes</span> -->
+        <div class="projects">
+            <div class="projects-container" id="projects-container4">
+                <div class="outerBox">
+                    <div class="rotate" id="rotate4">
+                    </div>
+                    <div class="mainProject" id="mainProject4">
+                    </div>
+                </div>
+                <div class="forBest" id="forBest4">
+                    <ul class="otherProjects" id="otherProjects4">
+                        <li>Bi</li>
+                        <li>Cd</li>
+                        <li>Dr</li>
+                        <li>Dr</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="notes-mainBody">
+            
+            <div class="notes-body" id="mainWindow">
+                <div class="notes-crossHorizontal"></div> 
+            
+                <ul class="notes-list" id="notes-list">
+                    <li class="notes-element">
+                        <div class="notes-line"></div>
+                        <span class="notes-text">What is lorem ipsum?</span>
+                        <button>
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </li>
+                    <li class="notes-element">
+                        <div class="notes-line"></div>
+                        <span class="notes-text">Why do we use it?</span>
+                        <button>
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </li>
+                    <li class="notes-element">
+                        <div class="notes-line"></div>
+                        <span class="notes-text">Where does it come from?</span>
+                        <button>
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </li>
+                    <li class="notes-element">
+                        <div class="notes-line"></div>
+                        <span class="notes-text">Where can I get some?</span>
+                        <button>
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </li>
+                    <li class="notes-element">
+                        <div class="notes-line"></div>
+                        <span class="notes-text">Where can I get some?</span>
+                        <button>
+                            <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </li>
+                </ul>
+                <div class="notes-crossLine">
+                <div class="notes-forButton" id="noteButton">
+                    <button class="notes-addButton" id="addButton">
+                        <img src = "./icons/plusTasks.svg" alt="addButton"/>
+                    </button>
+                </div> 
+                </div>
+            </div>
+
+        </div>
+        <div class="headerBottom">
+            <span class="headerText">Notes</span>
+            <div class="bottomLine"></div>
+        </div>
+    </div>
+<!-------------------------------------------------------------------------------------------NOTES------------------------------------------------------------------------------->
+
+<!-------------------------------------------------------------------------------------------NOTE------------------------------------------------------------------------------->
+    <div class="note" id="5">
+        <div class="note-itself">
+            <!-- <div class="note-path">
+                <span id ="notePath">Notes/</span>
+            </div> -->
+            <div id="note" class="note-body">
+                <form class="note-topPanel" id="noteForm">
+                    <div class="note-changeButtonsStyling note-topSettings">
+                        <!-- <input list="fontStyleButton" class="note-type1 note-btn color1-1" onfocus="this.value=''" onchange="this.blur();" id="fStyleList"> -->
+                        <select id="fontStyleButton" class="note-type1 note-btn color1-1">
+                            <option value="Times New Roman" selected="selected">Times New Roman</option>
+                            <option value="Arial">Arial</option>
+                        </select>
+                        <!-- <input list="fontSizeButton" class="note-type2 note-btn color1-1" onfocus="this.value=''" onchange="this.blur();" id="fSizeList"> -->
+                        <select id="fontSizeButton" class="note-type2 note-btn color1-1">
+                            <option value="10">10</option>
+                            <option value="15" selected="selected">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="35">35</option>
+                            <option value="40">40</option>
+                        </select>
+                        <button class="note-type3 note-btn color1-1" id="increaseButton">
+                            <img src = "./icons/aNotes.svg" alt="aPlusButton"/>
+                            <img src = "./icons/upNotes.svg" class="subIcon" alt="aPlusButton"/>
+                        </button>
+                        <button class="note-type3 note-btn color1-1"  id="decreaseButton">
+                            <img src = "./icons/aNotes.svg" alt="aMinusButton"/>
+                            <img src = "./icons/downNotes.svg" class="subIcon" alt="aPlusButton"/>
+                        </button>
+                    </div>
+                    <div class="note-changeButtonsVisuals note-topSettings">
+                        <button class="note-type3 note-btn color1-1" id="boldButton">
+                            <img src = "./icons/boldNotes.svg" alt="boldButton"/>
+                        </button>
+                        <button class="note-type3 note-btn color1-1"  id="italicButton">
+                            <img src = "./icons/italicNotes.svg" alt="italicButton"/>
+                        </button>
+                        <button class="note-type3 note-btn color1-1"  id="underlineButton">
+                            <img src = "./icons/underlineNotes.svg" alt="underlineButton"/>
+                        </button>
+                    </div>
+                    <div class="note-specialButton note-topSettings">
+                        <button class="note-type3 note-btn color1-1"  id="imageButton">
+                            <img src = "./icons/imageNotes.svg" alt="imageButton"/>
+                            <div class="hiddenfile" id="forImages">
+                                <input name="upload" type="file" id="fileinputImages" accept=".jpg, .jpeg, .png"> 
+                            </div>
+                        </button>
+                        <button class="note-type3 note-btn color1-1"  id="videoButton">
+                            <img src = "./icons/videoNotes.svg" alt="videoButton"/>
+                            <div class="hiddenfile" id="forVideos">
+                                <input name="upload" type="file" id="fileinputVideos" accept=".mp4"> 
+                            </div>
+                        </button>
+                        <button class="note-type3 note-btn color1-1"  id="recordButton">
+                            <img src = "./icons/microNotes.svg" id="recordButtonImg" alt="recordButton"/>
+                        </button>
+                    </div>
+                </form>
+                <textarea class="note-title" id="note-title" placeholder="Enter your title" maxlength="35"></textarea>
+                <div class="note-crossLine"></div>
+                <div class="note-text" contenteditable="true" id="note-text">
+                </div>
+            </div>
+        </div>
+        <div class="note-childcontainer">
+            <div class="note-childBox" id="note-childBox">
+                <ul class="note-list" id="noteChildren">
+                    <li class="color1-1">
+                        <span>Hello</span>
+                        <button>
+                             <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                        </button>
+                    </li>
+                </ul>      
+                <div class="note-width">
+                    <button class="note-add" id = "noteAddButton">
+                        <img src = "./icons/plusTasks.svg" alt="addButton"/>
+                    </button>
+                </div>        
+            </div>
+        </div>
+        
+    </div>
+<!-------------------------------------------------------------------------------------------NOTE------------------------------------------------------------------------------->
+
+</body>
+</html>

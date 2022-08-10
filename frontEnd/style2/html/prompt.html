@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/prompt.css">
+    <link rel="stylesheet" href="css/fixed/preloader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script type="module" src="./scripts/prompt.js"></script>
+    <script>
+        window.$ = window.jQuery = require("./plugins/jquery.min.js");
+    </script>
+    <title>NewTask</title>
+</head>
+<body>
+    <!-- Steps to finish 
+        add stage visualisation
+        for now no need on date, only time!!!
+        go to main.js and change window size in createNewTaskWindow section, cause window that appears is to small
+        make visual better!!!
+        I need strong html and css
+        change everything except 
+                        following ids -> taskText, startTime, endTime, addButton -->
+    <div class="taskitselfFirst">
+        <form class="upperTaskitself-body">
+            <div class="upperTaskitselfBackground_1"></div>
+            <div class="upperTaskitselfBackground_2"></div>
+            <div class="upperTaskitselfHeader">
+                Choose Tool
+            </div>
+            <div class="upperTaskitselfBody">
+                <button class = "upperTaskitselfBodybutton">Notes</button>
+                <button class = "upperTaskitselfBodybutton taskitselfcenter">None</button>
+                <button class = "upperTaskitselfBodybutton">Tasks</button>
+            </div>
+        </form>
+    </div>                   
+    <div class="taskitselfCenter">
+            <form class="taskitselfLeft">
+                <div class="taskitselfBackgroundCircle_1"></div>
+                <div class="taskitselfBackgroundCircle_2"></div>
+                <div class="taskitselfLeftInput">
+                    <div class="taskitselfLeftInputHeader">
+                        <div class="taskitselfLeftInputHeaderText">
+                            Choose File
+                        </div>
+                        <button class="taskitselfLeftInputHeaderButton">
+                            <img src="./icons/plusTasks.svg" alt="addButton">
+                            FILE
+                        </button>
+                    </div>
+                    <div class="taskitselfLeftInputBody">
+                        <ul class="taskitself-list">
+                            <li>
+                                <span>Hello</span>
+                                <button>
+                                     <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                                </button>
+                            </li>
+                            <li>
+                                <span>Hello2</span>
+                                <button>
+                                     <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                                </button>
+                            </li>
+                        </ul>  
+                    </div>
+                </div>
+            </form>
+            
+            <form class="taskitself-body" id="login-form">
+                <!-- <img class = "back" src = "images/add_task.png" alt="addTask"> -->
+                <div class="taskitselfBackground_1"></div>
+                <div class="taskitselfBackground_2"></div>
+                <div class="close">
+                    <img class = "closeButton" id="closeBtn" src="https://img.icons8.com/ios-glyphs/240/ffffff/delete-sign.png"/>
+                </div>
+                <div class="taskitself-inputs">
+                    <div class="header">
+                        <h1>Add Task</h1>
+                    </div>
+                    <!-- Title input -->
+                    <!-- <div class="taskitself-title">
+                        <input 
+                            type="text" 
+                            id="taskTitle"
+                            class="title" 
+                            placeholder="ToDo" 
+                            autocomplete="off"
+                            readonly
+                        />
+                    </div> -->
+                    <!-- DAYs input -->
+                    <div class="weekDaysContainer" id="dayButtons">
+                        <button type="button" class="weekDaysInput" type="button" id="day1" >M</button>
+                        <button type="button" class="weekDaysInput" type="button" id="day2">T</button>
+                        <button type="button" class="weekDaysInput active" type="button" id="day3">W</button>
+                        <button type="button" class="weekDaysInput" type="button" id="day4">T</button>
+                        <button type="button" class="weekDaysInput" type="button" id="day5">F</button>
+                        <button type="button" class="weekDaysInput" type="button" id="day6">S</button>
+                        <button type="button" class="weekDaysInput last" type="button" id="day0">S</button>
+                    </div>
+                    <!-- Text input -->
+                    <div class="taskitself-text">
+                        <div class="taskitself-textHeader">
+                            <select class = "taskitselfProjects" name="projects" id="taskitselfPtojects">
+                                <option value="All projects">All projects</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Information Security">Information Security</option>
+                                <option value="Parallehuyna">Parallehuyna</option>
+                              </select>
+                            <button type="button" class = "addButtonTaskitself">
+                                <img src="./icons/plusTasks.svg" alt="addButton">
+                            </button>  
+                        </div>
+                        <div class="taskitself-textBody">
+                            <textarea class="descp" id="taskText" placeholder="description"></textarea>      <!--  do not change id -->
+                        </div>
+                    </div>
+                    <div class="taskitselfBottom">
+                        <div class="taskitselfDate">
+                            <input type = "date" class = "startDate" id = "date">
+                        </div>
+                        <div class="taskitselfTime">
+                            <div class = "start-time">        
+                                <p>Start Time:</p>
+                                
+                                <input type = "time" id="startTime">
+                                
+                            </div>
+                            <div class = "end-time">
+                                <p>End Time:</p>
+                                
+                                <input type = "time" id="endTime"> 
+                                
+                            </div>
+                        </div>
+                        <!-- Starting time input -->
+                        <!-- <div class = "start-time">        
+        
+                        </div>  -->
+                        <!-- Ending time input -->
+                        <!-- <div class = "end-time">
+                            <p>End Time:</p>
+                            <div class = "split"> -->
+                                <!-- <input type = "date" > -->
+                                <!-- <input type = "time" id="endTime"> 
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- Add button -->
+                    <div class="add-schedule-button">
+                        <button id="addButton" > <!--  do not change id -->
+                            <i><i class="fas fa-check"></i></i>
+                        </button>
+                    </div>
+                    <!-- Stage checkboxes -->
+         
+                        <div class="round_1 customcb ">
+                            <input type="checkbox"  id="customcb1" />
+                            <label  for="customcb1"></label>
+                        </div>
+                        <div class="round_2 customcb ">
+                            <input type="checkbox"  id="customcb2" />
+                            <label  for="customcb2"></label>
+                        </div>
+                        <div class="round_3 customcb ">
+                            <input type="checkbox"  id="customcb3" />
+                            <label  for="customcb3"></label>
+                        </div>
+                   
+                </div>
+            </form>
+            <form class="taskitselfRight">
+                <div class="taskitselfBackgroundCircle_1"></div>
+                <div class="taskitselfBackgroundCircle_2"></div>
+                <div class="taskitselfLeftInput">
+                    <div class="taskitselfLeftInputHeader">
+                        <div class="taskitselfLeftInputHeaderText">
+                            Add Link
+                        </div>
+                        <button class="taskitselfRightInputHeaderButton">
+                            <img src="./icons/plusTasks.svg" alt="addButton">
+                            LINK
+                        </button>
+                    </div>
+                    <div class="taskitselfRightInputBody">
+                        <ul class="taskitself-list">
+                            <li>
+                                <span>Hello</span>
+                                <button>
+                                     <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                                </button>
+                            </li>
+                            <li>
+                                <span>Hello2</span>
+                                <button>
+                                     <img src = "./icons/deleteTasks.svg" alt="deleteButton"/>
+                                </button>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="taskitselfRightInputBottom">
+                            Add Music ?
+                            <button class = "taskitselfMusic">NO</button>
+                    </div>
+                </div>
+            </form>
+    </div>
+</body>
+</html>

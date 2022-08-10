@@ -1,0 +1,253 @@
+@font-face {
+    font-family: NotoSerif;
+    src: url(./fonts/NotoSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: KottaOne;
+    src: url(./fonts/KottaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+  
+.tasks{
+    position: relative;
+    width:calc(100vw - 50px);
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+}
+
+.tasks-body{
+    width:100%;
+    height:89vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-near{
+    cursor: pointer;
+    height:60vh;
+    width: 25%;
+    margin:2%;
+    opacity: 0.7;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.tasks-center{
+    position: relative;
+    height:80vh;
+    width: 35%;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.tasks-same{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.tasks-bodyHeader{
+    width:100%;
+    height:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.tasks-bodyHeader span{
+    font-family: NotoSerif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vh;
+}
+
+.tasks-bigger{
+    margin-top: 3vh;
+    font-size: 4vh !important;
+    line-height: 1vh;
+}
+
+.tasks-giant{
+    margin-top: 3vh;
+    font-size: 5vh !important;
+    line-height: 1vh;
+}
+
+.tasks-month{
+    color: white;
+    font-size: 4vh !important;
+}
+
+.tasks-bodyEnd{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.tasks-size{
+    font-size: 4vh !important;
+    line-height: 4vh;
+    margin-right: 0.5vw;
+}
+
+.tasks-bodyEnd span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+
+.tasks-hover{
+    box-shadow: 0px 0px 6px 2px rgba(255, 255, 255, 0.25);
+}
+.tasks-bodyBody{
+    width:100%;
+    height:62%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasks-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+    width: 90%;
+    height: 80%;
+    padding: 0;
+}
+
+.tasks-addTask{
+    display: block;
+    min-height: 100%;
+    width: calc(100% - 50px - 2vw);
+    border: none;
+    border-radius: 10px;
+    padding: 5% calc(25px + 1vw);
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+
+.tasks-element{
+    width:90%;
+    min-height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.tasks-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tasks-element form{
+    min-height: 100%;
+    width: 100%;
+}
+
+.tasks-addNewTask{
+    position: absolute;
+    border: none;
+    border-radius: 100%;
+    width:9vh;
+    height: 9vh;
+    top:calc(29.5% - 4.5vh);
+    box-shadow: 0px 0px 6px 2px rgba(255, 255, 255, 0.25);
+    left: 70%;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-addNewTask img{
+    width: 5vh;
+    height: 5vh;
+}
+
+.tasks-done{
+    border-radius: 50%;
+    min-width: 25px;
+    min-height: 25px;
+    border: none;
+    margin:0.5vw;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-done img{
+    width: 15px;
+    height: 15px;
+    margin:0;
+    padding: 0;
+}
+
+.tasks-element span{
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 2vh;
+    width:80%;
+    min-width: 60%;
+    overflow-wrap: break-word;
+}
+
+.tasks-element p{
+    margin:0;
+    font-size: 1.5vh;
+    color: white;
+    font-family: KottaOne;
+}
+
+.tasks-delete{
+    border-radius:40%;
+    width:20px;
+    height: 20px;
+    border: none;
+    margin: 2%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasks-delete img{
+    width: 12px;
+    height: 12px;
+    margin:0;
+    padding: 0;
+}

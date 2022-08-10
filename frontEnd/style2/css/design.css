@@ -1,0 +1,91 @@
+/*--------------------------------------------------------------COLORS-STYLE-2---------------------------------------------*/
+
+.color1-1{
+    background-color: #FFFFFF !important;
+}
+.color1-2{
+    background: #C2C2C2;
+}
+.color1-3{
+    background: #828282;
+}
+.color1-4{
+    background: linear-gradient(102.29deg, rgba(0, 0, 0, 0.8) 0%, #FFFFFF 100%) !important; 
+}
+.color1-color1-3{
+    background: #828282;
+}
+.color1-color1-4{
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%) !important;
+}
+.color1-color1-6{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+}
+.color1-color1-7{
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+}
+.color1-color1-2{
+    background: #C2C2C2;
+}
+.color1-menu{
+    background: #C2C2C2;
+}
+.scroll1::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll1::-webkit-scrollbar-track {
+    background-color: #C2C2C2!important;
+    border-radius: 5vh;
+    border: none;
+}
+.scroll1::-webkit-scrollbar-thumb {  
+    background: #828282!important;
+    border-radius: 5vh;
+}
+.scroll1::-webkit-scrollbar-thumb:hover {
+    background: #757575!important;
+}
+.color1-borders{
+    border: 1px solid #000000;
+}
+.color1-lines{
+    background-color:gray;
+}
+.color1-back{
+    background: linear-gradient(270deg, #C2C2C2 0%, #FFFFFF 73.44%) !important;
+}
+.color1-arrow{
+    border-left: 0.7vw solid #5C5C5C;
+}
+.color1-5{
+    background-color: #5C5C5C!important;
+}
+
+
+
+.color1-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 360deg);
+}
+.color2-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FFA800 0deg, #FF5C00 360deg);
+}
+.color3-box{
+    background: conic-gradient(from 180deg at 50% 50%, #C4C4C4 0deg, #8FFF00 360deg);
+}
+.color4-box{
+    background: conic-gradient(from 180deg at 50% 50%, #DE00FF 0deg, #AE00FF 360deg);
+}
+.color5-box{
+    background: conic-gradient(from 180deg at 50% 50%, #0238FF 0deg, #FC015E 360deg);
+}
+.color6-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FAFF00 0deg, #9E4300 360deg);
+}
+.color7-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FE0202 0deg, #02FEFE 360deg);
+}
+.color8-box{
+    background: conic-gradient(from 180deg at 50% 50%, #24FF01 0deg, #02DBA7 360deg);
+}
+/*--------------------------------------------------------------COLORS-STYLE-3---------------------------------------------*/

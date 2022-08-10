@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.taskitself-body{
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    margin:0;
+    padding:0;
+    width: 454px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.back{
+  width: 454px;
+  height: 403px;
+  position: absolute;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.close{
+  width:100%;
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.closeButton{
+  width:20px;
+  height: 20px;
+  z-index: 1;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+.closeButton:hover{
+  opacity: 1;
+}
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  margin: 0;
+  font-family:  'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-shadow:  0px 15px 5px rgba(0,0,0,0.1),
+                1px 2px 0.5px rgba(0,0,0,0.5),
+                -1px -2px 0.5px rgba(0,0,0,0.5);
+}
+
+.taskitself-inputs{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.taskitself-title{
+    margin-top: 10px;
+    width: 380px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+ 
+}
+
+.taskitself-text{
+    width: 380px;
+    height: 150px;
+    margin-top: 15px;
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.taskitself-text textarea{
+  resize: none;
+}
+
+.title{
+    width: 100%;
+    height: 100%;
+
+    border:none;
+    outline: none !important;
+
+    margin:0;
+    padding-left:10px;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.descp{
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none !important;
+
+    margin:0;
+    padding-left:10px;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    border: 1px solid #000000;
+    
+}
+
+p {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: medium;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+div .start-time .split{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:263px;
+    left:128px;
+    margin-bottom: 10px;
+    
+}
+div .end-time .split{
+    position: absolute;
+    top:303px;
+    left:128px;
+    margin-bottom: 10px;
+    
+}
+div .split input{
+    margin-right: 15px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+
+.startDate{
+  width: 135px;
+  margin-right: 0 !important;
+}
+#startTime, #endTime{
+    height: 28px;
+}
+div .add-schedule-button{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+div button{
+    width: 50px;
+    height:40px ;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 20px;
+    cursor: pointer;
+    position:relative;
+    
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    /* background-color:white !important; */
+}
+
+  .round_1 {
+    position: absolute;
+  }
+  
+  .round_1 label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  
+    left: 0;
+    top: 350px;
+    position: absolute;
+
+    height: 13px;
+    width: 13px;
+  }
+  
+  .round_1.customcb input[type="checkbox"] {
+    visibility: hidden;
+  }
+
+  .round_2 {
+    position: absolute;
+  }
+  
+  .round_2 label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    left: 20px;
+    top: 350px;
+    position: absolute;
+    height: 13px;
+    width: 13px;
+  }
+  
+  .round_2.customcb input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .round_3 {
+    position: absolute;
+  }
+  .round_3 label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  
+    left: 40px;
+    top: 350px;
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    
+  }
+  
+  .round_3.customcb input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .round_3 input[type="checkbox"]:checked + label {
+    background-color: #c20000;
+  }
+  
+  .round_3 input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+
+  .round_1.customcb input[type=checkbox]:checked+label {
+    background: red
+  }
+  .round_2.customcb input[type=checkbox]:checked+label {
+    background: yellow
+  }
+  .round_3.customcb input[type=checkbox]:checked+label {
+    background: green
+  }
+
+  .active{
+    background-color: red;
+  }
+  .buttons{
+    margin-top: 15px;
+  }
+  #addButton{
+    height: 30px;
+  }

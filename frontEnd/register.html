@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/fixed/register.css">
+    <link rel="stylesheet" href="css/fixed/preloader.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <script type="module" src="scripts/register.js" ></script>
+    <script>
+        window.$ = window.jQuery = require("./plugins/jquery.min.js");
+    </script>
+    <title>Register</title>
+</head>
+<body >
+    <div class="ansars_beauty">
+    <h1 class="register-header">Productivity app</h1>
+    <form class="register-body" id="register-form">
+        <img  src = "images/register.png" alt="registerImg">
+        <div class="register-top">
+            <div class="user_box">
+                <img  src = "images/profile-image.jpg" alt="registerImg">
+            </div>
+                <div class="register-userInfo">
+                    <input 
+                        type="text" 
+                        id="userInfoName" 
+
+                        placeholder="Name" 
+                        autocomplete="off"
+                    />
+                    <input 
+                        type="text" 
+                        id="userInfoSurname" 
+                        placeholder="Surname" 
+                        autocomplete="off"
+                    />
+                    <input 
+                        type="text" 
+                        id="userInfoEmail" 
+                        placeholder="Email" 
+                        autocomplete="off"
+                    />
+                    <input 
+                        type="password" 
+                        id="userInfoPassword" 
+                        placeholder="Password" 
+                        autocomplete="off"
+                    />
+                    <input 
+                        type="password" 
+                        id="userInfoRePassword" 
+                        placeholder="Repeat password" 
+                        autocomplete="off"
+                    />
+                </div>
+        </div>
+
+            <div class="buttons" id="buttons">
+                <button class="register-button">Register</button>
+            </div>
+
+    </form>
+    <a href="login.html" class="register-toLogin">Already have an account? Login</a>
+</div>
+</body>
+</html>

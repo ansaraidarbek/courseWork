@@ -1,0 +1,1317 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+  
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+.background_circle_1{
+    position: absolute;
+    width: 44vw; 
+    /* height: 400px; */
+    height: 60vh; /*общий 782 */
+    left: 50vw;
+    top: 4.1vh;
+    background: #000000;
+    filter: blur(300px);
+    border-radius: 10px;
+    z-index: 1;
+}
+.background_circle_2{
+    position: absolute;
+    width: 30vw; /*общий 1536 */
+    height: 58vh;/*общий 782 */
+    left: -10vw;
+    top: -10vh;
+    
+    background: #000000;
+    filter: blur(300px);
+    border-radius: 10px;
+    z-index: 1;
+}
+.background_circle_3{
+    position: absolute;
+    width: 20vw; /*общий 1536 */
+    height: 40vh;/*общий 782 */
+    left: 18vw;
+    top: 57vh;
+
+    /* width: 225px;
+    height: 231px;
+    left: 179px;
+    top: 475px; */
+
+    
+    background: #000000;
+    filter: blur(300px);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.background_circle_4{
+    position: absolute;
+    width: 30vw; /*общий 1536 */
+    height: 58vh;/*общий 782 */
+    left: 71vw;
+    top: 65vh;
+
+    /* width: 426px;
+    height: 414px;
+    left: 635px;
+    top: 539px; */
+
+    background: #000000;
+    filter: blur(300px);
+    border-radius: 10px;
+    z-index: 1;
+}
+.background_color_circle_1{
+    position: absolute;
+    width: 46vw;
+    height: 90vh;
+    left: -13vw;
+    top: 43vh;
+
+    /* background: radial-gradient(100% 100% at 50% 0%, #FFFFFF 0%, #000000 100%);
+    filter: blur(120px);
+    transform: rotate(17.83deg);   */
+    z-index: 0.5;  
+}
+.background_color_circle_2{
+    position: absolute;
+    width: 46vw;
+    height: 90vh;
+    left: 58vw;
+    top: -25vh;
+    /* width: 700px;
+    height: 700px;
+    left: 395.95px;
+    top: -75.66px; */
+
+    /* background: radial-gradient(100% 100% at 50% 0%, #FFFFFF 25.83%, #000000 100%);
+    filter: blur(120px);
+    transform: rotate(-22.1deg);  */
+    z-index: 0.5;
+} 
+body{
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+}
+
+.toolName{
+    display: block;
+    position: absolute;
+    font-size: 10vh;
+    left:2vw;
+    font-family: Lato;
+}
+
+.sidebar{
+    width: 20vw;
+    height:100vh;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+    font-family: Roboto;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(100px);
+}
+
+.sidebar-header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 95%;
+    padding-top: 1vh;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+section{
+    z-index: 4;
+}
+.sidebar-headerLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 5vh);
+    transition: all 0.5s ease;
+    margin-bottom: 0.7vh;
+}
+
+.sidebar-headerLeft span{
+    font-size: 1.8vw;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    margin-right: 1.4vw;
+    margin-left: 0.5vw;
+}
+
+.bx-menu{
+    width: 5vh;
+    height: 5vh;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.bxs-time-five{
+    width: 2.5vw;
+    height: 2.5vw;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.sidebar-list{
+    list-style: none;
+    padding: 0;
+    margin: 5vh 0;
+    transition: all 0.5s ease;
+}
+
+.sidebar li{
+    margin: 1vh 0;
+    border-radius: 10px;  
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.sidebar_list a{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;    
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.sidebar-settings a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar li a img{
+    height: 50px;
+    width: 3vh;
+    border-radius: 10px;
+    margin:0 0.5vw;
+    transition: all 0.5s ease;
+}
+
+.sidebar li a span{
+    font-size: 3vh;
+    font-weight: 600;
+    width:calc(15vw - 20px);
+    transition: all 0.5s ease;
+}
+
+.sidebar li .tooltip{
+    position: absolute;
+    top: 0;
+    left: calc(100% + 15px);
+    z-index: 5;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+}
+
+.sidebar li:hover .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sidebar-bottom{
+    position: absolute;
+    bottom:1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+    transition: all 0.5s ease;
+    border-radius: 10px;   
+    width: 18vw;
+}
+
+.sidebar-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    height: 100%;
+    width: calc(20vw - 6vh);
+    transition: all 0.5s ease;
+}
+
+.sidebar-profile img{
+    height: 5vh;
+    width: 5vh;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+
+.sidebar-profile span{
+    font-size: 2.5vh;
+    transition: all 0.5s ease;
+}
+
+.logOut{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    width: 6vh;
+    transition: all 0.5s ease;
+}
+
+.sidebar.close{
+    width: 50px !important;
+    transition: all 0.5s ease;
+}
+.sidebar.close .sidebar-bottom{
+    width: 48px !important;
+    height: 10vh;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.sidebar.close .sidebar-bottom .logOut{
+    font-size: 24px;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 10px 10px 10px 10px;
+} 
+
+.sidebar.open .sidebar-list li .tooltip{
+    display: none;
+}
+
+.sidebar.close .sidebar-header .sidebar-headerLeft,
+.sidebar.close .sidebar-list li a span,
+.sidebar.close .sidebar-bottom .sidebar-profile{
+    display: none;
+    transition: all 0.2s ease;
+}
+.modal-container {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, .3);
+}    
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+.sidebar::before {
+display: none;
+} 
+.container {
+    width: 50vw;
+    height: 60vh;
+    margin: 0 auto;
+    position: relative;
+
+    border: .1em solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction:row;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    z-index: 1;
+    overflow: hidden;
+}
+
+.set-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    border-radius: 5px 0 0 5px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 4;
+}
+
+.set-right {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-right h2 {
+    width: 17.5vw;
+    font-family: RobotoBold;
+    font-weight: bold;
+ 
+    font-size: 2.8vh;
+    margin-bottom: 5px;
+    margin-top: 1vh;
+}
+input{
+    width:17.5vw;
+    background: #FDFEFE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    height: 3vh;
+} 
+
+.set-link-name {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 15px);
+    z-index: 5;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+}
+
+.icons a {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 15% !important;
+    width: 4vw;
+    border-radius: 10px;    
+
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+
+
+    margin-top: 3.5vh;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    /* padding: 3vh; */
+    color:rgb(3, 3, 3);
+    font-size: 1vh;
+    transition: all 0.01s ease-in-out;
+
+}
+
+
+
+nav a:hover .set-link-name {
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    top: 25%;
+    transform: translateY(-50%);
+}
+
+nav a:active {
+    color: #817f7f;
+}
+
+.button-wrap{
+    width: 17.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image{
+    width:30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    float: left;
+}
+.image img{
+    height: 35%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.set-right h1{
+    font-family: RobotoBold;
+    font-weight: bold;
+    font-size: 4.5vh;
+    left: -2.5vw;
+    position: absolute;
+    display: flex !important;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+.addRemove{
+    width: 100%;
+    font-family: RobotoBold;
+    font-weight: bold;
+    font-size: 3.5vh;
+
+    position: absolute;
+    display: flex !important;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 0;
+    margin-top: 2vh;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    margin-top: 11vh !important;
+}
+.set-close{
+    margin-top: 16vh !important;
+}
+
+.window {
+    position: relative;
+    width: 40%;
+    height: 50%;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    border: none;
+    border-radius: 10px;
+    margin-top:3vh;
+    margin-left:2vw;
+}
+.checkbox{
+    display: flex;
+    width: 100%;
+    height:65%;
+    flex-direction: column;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 5vh;
+}
+.customcb1 {
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    border-radius: 100%;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  }
+  .tools{
+      margin-left: 7vw;
+      height: 20%;
+  }
+
+  .window .btn{
+    position: relative;
+    width: 6vw;
+    height: 4vh;
+    left: 0vh;
+    top: 0vh;
+
+    display:inline-block;
+    border: 0.1em solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius:0.12em;
+    transition: all 0.2s;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    margin-top: 25px;
+    margin-bottom: 32px;
+    cursor: pointer;
+
+   
+    color: black; 
+    text-align: center;
+  }
+  
+  .button-wrap1{
+    width: 26.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.settings-window{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings-container{
+    width:80%;
+    height: 80%;
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    margin-top:3vh;
+}
+.settings-container_1{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.button{
+    height: 20vh;
+}
+.Task{
+    margin-top: 16vh;
+}
+
+.prefButton {
+  align-items: center;
+  appearance: none;
+  border-radius: 24px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 3vh;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 9vw;
+  will-change: transform,opacity;
+}
+
+.prefButton:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.prefButton:focus {
+  outline: none;
+  border: 2px solid white;
+}
+
+.prefButton:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.prefButton:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.prefButton:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.prefButton:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.prefButton:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+.set-schedule-header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.1vw;
+    font-family: 'Lato', sans-serif;
+}
+.set-schedule-selector1{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+
+   
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+.set-schedule-selector1 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    margin-bottom: 1vh;
+}
+.set-schedule-selector2 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+.set-schedule-selector3 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+.set-schedule-selector2{
+    width: 80%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+.set-schedule-selector3{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    /* margin-bottom: 2vh; */
+}
+.set-input-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+
+.set-input-container input{
+    width: 16vw;
+    height: 3vh;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(0,0,0, 0.5);
+}
+.set-input-container input::placeholder{
+    color: rgb(0,0,0, 0.8);
+    font-size: 0.9vw;
+    font-style: italic;
+    text-align: right;
+} 
+.set-schedule-slider{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2vh;
+    border-radius: 10px;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    background-color:white;
+    border: none;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    height: 3vh;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000000;
+}
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #070707;
+    cursor: pointer;
+}
+.set-slidecontainer {
+    width: 60%; 
+    position: relative;
+}
+.set-initialTime{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2vw;
+    top:0;
+    transform: translateY(-110%);
+    position: absolute;
+    color: black;
+}
+.set-finalTime{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2vw;
+    top:0;
+    transform: translateY(-110%);
+    right:0;
+    position: absolute;
+    color: black;
+}
+.set-schedule-input{
+    width: 100%;
+    height: 30%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.set-schedule-startTime{
+    width:18%;
+    height:4vh;
+    color: black;
+    font-size: 1.1vw;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(0,0,0, 0.5);
+    position: relative;
+    margin-right: 2vw;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+    display:none;
+}
+.set-schedule-endTime{
+    width:18%;
+    height:4vh;
+    color: black;
+    font-size: 1.1vw;
+    border-radius: 5px;
+    border-color: rgb(0,0,0, 0.5);
+    position: relative;
+    margin-left: 2vw;
+}
+.set-schedule-input span{
+    position: absolute;
+    bottom: -60%;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+.set-schedule-input img{
+    width:2.5vw;
+    height:3vh;
+}
+.set-span-start{
+    left:28%;
+}
+.set-span-end{
+    right:30%;
+}
+.set-update-button{
+    height:15%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5vw;
+    padding: 0;
+    padding-right: 2vw !important;
+}
+.set-update-btn{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+    width:8vw;
+    height:4.5vh;
+
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.set-update-btn:hover{
+    transform: scale(1.05);
+}
+.set-update-button1{
+    border-top: 1px ;
+    height: 13%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5vw;
+}
+.set-update-btn1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+    width:8vw;
+    height:4.5vh;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.set-update-button2{
+    border-top: 1px ;
+    height: 13%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5vw;
+}
+.set-update-btn2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+    width:8vw;
+    height:4.5vh;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.set-input-container input:invalid+span:after {
+    content: '✖';
+    font-size: 1.8vw;
+    position: absolute;
+    bottom: 0;
+    right: 22%;
+  }
+  
+.set-input-container input:valid+span:after {
+    content: '✓';
+    font-size: 1.8vw;
+    position: absolute;
+    bottom: 0;
+    right: 22%;
+  }
+ .settings_background_1{
+    /* w: 765
+       h: 466 */
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    left: 5vw;
+    top: 30vh;
+
+    background: #000000;
+    filter: blur(100px);
+    border-radius: 10px;
+    transform: rotate(45.14deg);
+    z-index: 2;
+ }
+ .settings_background_2{
+        /* w: 1536
+    h: 782 */
+    position: absolute;
+    width: 10vw;
+    height: 30vh;
+    left: 24vw;
+    top: -5vh;
+    background: #000000;
+    filter: blur(100px);
+    border-radius: 10px;
+    z-index: 2;
+    transform: rotate(106.46deg);
+
+}
+ .settings_circle_background_1{
+    position: absolute;
+    width: 40vw;
+    height: 70vh;
+    left: -20vw;
+    top: 5vh;
+    transform: rotate(143.57deg);
+    z-index: 1.2;
+ }
+
+ .settings_background_3{
+    position: absolute;
+    width: 20vw;
+    height: 38vh;
+    left: 28vw;
+    top: 28vh;
+    
+    background: #000000;
+    filter: blur(150px);
+    border-radius: 10px;
+    transform: rotate(77.74deg);
+ }
+ .settings_circle_background_2 {
+    transform: rotate(-161.37deg);
+    position: absolute;
+    width: 26vw;
+    height: 51vh;
+    left: 30vw;
+    top: -10vh;
+ }
+ .settings-options{
+    width:calc(100% - 3vw);
+    margin-top: 8vh;
+    font-family: Roboto;
+    font-size: 2.5vh;
+    font-style: normal;
+    padding: 0;
+ }
+ .settings-main{
+    position: relative;
+    margin-left: 5vw;
+ }
+ /* .settings-main:hover input ~ .settings-geekmark1 {
+    background-color: white;
+} */
+.settings-geekmark1 {
+    position: absolute;
+    top: 0.5vh;
+    left: -2.5vw;
+    height: 2.5vh;
+    width: 2.5vh;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+/* Specify the background color to be
+shown when hovering over checkbox */
+.settings-main:hover input ~ .settings-geekmark1 {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+  
+/* Specify the background color to be
+shown when checkbox is active */
+
+  
+/* Specify the background color to be
+shown when checkbox is checked */
+.settings-main input:checked ~ .settings-geekmark1 {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+  
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.settings-geekmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Display checkmark when checked */
+.settings-main input:checked ~ .settings-geekmark1:after {
+    display: block;
+}
+  
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.settings-main .settings-geekmark1:after {
+    left: 6px;
+    width: 2px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Hide the default checkbox */
+input[type=checkbox] {
+    visibility: hidden;
+}
+  
+/* Creating a custom checkbox
+based on demand */
+.settings-geekmark2 {
+    position: absolute;
+    top: 0.5vh;
+    left: -2.5vw;
+    height: 2.5vh;
+    width: 2.5vh;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+/* Specify the background color to be
+shown when hovering over checkbox */
+.settings-main:hover input ~ .settings-geekmark2 {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+  
+/* Specify the background color to be
+shown when checkbox is active */
+
+  
+/* Specify the background color to be
+shown when checkbox is checked */
+.settings-main input:checked ~ .settings-geekmark2 {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+  
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.settings-geekmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Display checkmark when checked */
+.settings-main input:checked ~ .settings-geekmark2:after {
+    display: block;
+}
+  
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.settings-main .settings-geekmark2:after {
+    left: 6px;
+    width: 2px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.settings-geekmark3 {
+    position: absolute;
+    top: 0.5vh;
+    left: -2.5vw;
+    height: 2.5vh;
+    width: 2.5vh;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+/* Specify the background color to be
+shown when hovering over checkbox */
+.settings-main:hover input ~ .settings-geekmark3 {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+  
+/* Specify the background color to be
+shown when checkbox is active */
+
+  
+/* Specify the background color to be
+shown when checkbox is checked */
+.settings-main input:checked ~ .settings-geekmark3 {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+  
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.settings-geekmark3.settings-geekmark3:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Display checkmark when checked */
+.settings-main input:checked ~ .settings-geekmark3:after {
+    display: block;
+}
+  
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.settings-main .settings-geekmark3:after {
+    left: 6px;
+    width: 2px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.settings-StyleWindow{
+    width: 40%;
+    height: 40%;
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, #FFFFFF 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.set-style-btn{
+    width: 6vw;
+    height: 4vh;
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(100px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    margin: 0 0.7vw;
+    border: none;
+    font-size: 2vh;
+    font-family: Roboto;
+}
+.set-style-btn:hover{
+    transform: scale(1.1);
+    background: linear-gradient(102.29deg, rgba(0, 0, 0, 0.8) 0%, #FFFFFF 100%);
+}
+.settings-styleButtons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+}
+.settings-styleButtons_1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

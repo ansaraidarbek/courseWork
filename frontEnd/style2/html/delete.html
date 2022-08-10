@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/delete.css">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/fixed/preloader.css">
+    <script type="module" src="./scripts/delete.js"></script>
+    <script>
+        window.$ = window.jQuery = require("./plugins/jquery.min.js");
+    </script>
+    <title>Delete</title>
+</head>
+<body>
+    <div class="delete_background"></div>
+    <div class="delete">
+        <span>Are you sure you want to delete?</span>
+        <div class="delete_main">
+            <h1 class="main-text" id="main-text"></h1>
+            <div class="delete-buttons">
+                <button id="yesButton">Yes</button>
+                <button id="noButton">No</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

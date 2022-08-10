@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #C2C2C2;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+.delete_background{
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(100% 100% at 100% 0%, #000000 0%, #FFFFFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    filter: blur(100px);
+    transform: rotate(59.85deg);
+    position: absolute;
+    top: 20px;
+    left:0;
+    z-index: 1;
+}
+.delete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.delete span{
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10vh;
+    margin-bottom: 5vh;
+    padding: 0;
+}
+.main-text{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15vh;
+    margin:10vh;
+    padding: 0;
+}
+.delete_main{
+    background: white;
+    box-sizing: border-box;
+/* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.delete button{
+    height:25px;
+    width: 100px;
+    margin:0;
+    padding: 0;
+    margin: 8vh 2.5vw;
+    border:none;
+    cursor: pointer;
+    background: #C2C2C2;
+    border-radius: 10px;
+    margin-top: 0;
+}
+.delete button:hover{
+    transform: scale(1.2);
+}

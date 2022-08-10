@@ -1,0 +1,991 @@
+
+
+/*--------------------------------------------------------------COLOR 1---------------------------------------------*/
+
+.color1-1{
+    background-color: #FFFFFF !important;
+} 
+.color1-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color1-3{
+    background: radial-gradient(100% 816.33% at 0% 0%, rgba(0, 0, 0, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%) !important
+}
+
+.color1-4{
+    background: linear-gradient(135deg, #000000 0%, #FFFFFF 100%) !important;
+}
+.color1-color1-3{
+    background: linear-gradient(91.33deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0.7) 100%);
+}
+.color1-color1-4{
+    background: linear-gradient(135deg, #000000 0%, #FFFFFF 100%) !important;
+}
+.color1-color1-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color1-color1-7{
+    background: linear-gradient(271.09deg, rgba(255, 255, 255, 0.85) 0%, rgba(0, 0, 0, 0.51) 100%);
+}
+.color1-color1-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #000000 0%, #FFFFFF 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color1-color1-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color1-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll1::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll1::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll1::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(0, 0, 0, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll1::-webkit-scrollbar-thumb:hover {
+}*/
+.color1-borders{
+    border: 0.1vh solid #000000;
+}
+.color1-lines{
+    background-color:gray;
+}
+
+.color1-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.color1-5{
+background-color: black;
+}
+
+.color1-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color1-toolNameLine{
+    background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%);
+}
+
+.color1-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #FFFFFF 0%, #000000 100%);
+    filter: blur(120px);
+}
+
+.color1-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #FFFFFF 25.83%, #000000 100%);
+    filter: blur(120px);
+}
+
+.color1-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #000000 0%, #FFFFFF 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 1---------------------------------------------*/
+
+/*--------------------------------------------------------------COLOR 2---------------------------------------------*/
+
+.color2-1{
+    background-color: #0038ff !important;
+} 
+.color2-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(0,56,255, 0.6) 0%, rgba(0,56,255, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color2-3{
+    background: radial-gradient(83.47% 681.41% at 9.58% 21.43%, rgba(255, 0, 102, 0.6) 0%, rgba(0, 56, 255, 0.6) 100%) !important
+}
+
+.color2-4{
+    background: linear-gradient(135deg, #ff005c 0%, #0038ff 100%) !important;
+}
+.color2-color2-3{
+    background: linear-gradient(91.33deg, rgba(255,0,92, 0.6) 0%, rgba(0,56,255, 0.7) 100%);
+}
+.color2-color2-4{
+    background: linear-gradient(135deg, #ff005c 0%, #0038ff 100%) !important;
+}
+.color2-color2-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(0,56,255, 0.48) 0%, rgba(0,56,255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color2-color2-7{
+    background: linear-gradient(271.09deg, rgba(0,56,255, 0.85) 0%, rgba(255,0,92, 0.51) 100%);
+}
+.color2-color2-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #ff005c 0%, #0038ff 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color2-color2-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(0,56,255, 0.48) 0%, rgba(0,56,255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color2-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(0,56,255, 0.48) 0%, rgba(0,56,255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll2::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll2::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll2::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #0038ff 0%, rgba(255,0,92, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll2::-webkit-scrollbar-thumb:hover {
+}*/
+.color2-borders{
+    border: 0.1vh solid #ff005c;
+}
+.color2-lines{
+    background-color:gray;
+}
+
+.color2-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,0,92, 1) 0%, rgba(0,56,255, 1) 100%);
+}
+
+.color2-5{
+background-color: black;
+}
+
+.color2-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color2-toolNameLine{
+    background: linear-gradient(180deg, #0038ff 0%, #ff005c 100%);
+}
+
+.color2-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #0038ff 0%, #ff005c 100%);
+}
+
+.color2-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #0038ff 25.83%, #ff005c 100%);
+}
+
+.color2-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #ff005c 0%, #0038ff 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 2---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR 3---------------------------------------------*/
+
+.color3-1{
+    background-color: #faff00 !important;
+} 
+.color3-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(250,255,0, 0.6) 0%, rgba(250,255,0, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color3-3{
+    background: radial-gradient(100% 816.33% at 0% 0%, rgba(157, 66, 0, 0.42) 0%, rgba(250,255,0, 0.06) 100%) !important
+}
+
+.color3-4{
+    background: linear-gradient(135deg, #9d4200 0%, #faff00 100%) !important;
+}
+.color3-color3-3{
+    background: linear-gradient(91.33deg, rgba(157, 66, 0, 0.6) 0%, rgba(250,255,0, 0.7) 100%);
+}
+.color3-color3-4{
+    background: linear-gradient(135deg, #9d4200 0%, #faff00 100%) !important;
+}
+.color3-color3-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(250,255,0, 0.48) 0%, rgba(250,255,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color3-color3-7{
+    background: linear-gradient(271.09deg, rgba(250,255,0, 0.85) 0%, rgba(157, 66, 0, 0.51) 100%);
+}
+.color3-color3-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #9d4200 0%, #faff00 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color3-color3-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(250,255,0, 0.48) 0%, rgba(250,255,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color3-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(250,255,0, 0.48) 0%, rgba(250,255,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll3::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll3::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll3::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #faff00 0%, rgba(157, 66, 0, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll1::-webkit-scrollbar-thumb:hover {
+}*/
+.color3-borders{
+    border: 0.1vh solid #9d4200;
+}
+.color3-lines{
+    background-color:gray;
+}
+
+.color3-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(157, 66, 0, 1) 0%, rgba(250,255,0, 1) 100%);
+}
+
+.color3-5{
+background-color: black;
+}
+
+.color3-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color3-toolNameLine{
+    background: linear-gradient(180deg, #faff00 0%, #9d4200 100%);
+}
+
+.color3-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #faff00 0%, #9d4200 100%);
+    filter: blur(120px);
+}
+
+.color3-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #faff00 25.83%, #9d4200 100%);
+    filter: blur(120px);
+}
+
+.color3-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #9d4200 0%, #faff00 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 3---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR 4---------------------------------------------*/
+
+.color4-1{
+    background-color: #ffa800 !important;
+} 
+.color4-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,168,0, 0.6) 0%, rgba(255,168,0, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color4-3{
+    background: radial-gradient(100% 816.33% at 0% 0%, rgba(255,92,0, 0.42) 0%, rgba(255,168,0, 0.06) 100%) !important
+}
+
+.color4-4{
+    background: linear-gradient(135deg, #9d4200 0%, #ffa800 100%) !important;
+}
+.color4-color4-3{
+    background: linear-gradient(91.33deg, rgba(255,92,0, 0.6) 0%, rgba(255,168,0, 0.7) 100%);
+}
+.color4-color4-4{
+    background: linear-gradient(135deg, #9d4200 0%, #ffa800 100%) !important;
+}
+.color4-color4-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,168,0, 0.48) 0%, rgba(255,168,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color4-color4-7{
+    background: linear-gradient(271.09deg, rgba(255,168,0, 0.85) 0%, rgba(255,92,0, 0.51) 100%);
+}
+.color4-color4-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #9d4200 0%, #ffa800 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color4-color4-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,168,0, 0.48) 0%, rgba(255,168,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color4-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255,168,0, 0.48) 0%, rgba(255,168,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll4::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll4::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll4::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #ffa800 0%, rgba(255,92,0, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll1::-webkit-scrollbar-thumb:hover {
+}*/
+.color4-borders{
+    border: 0.1vh solid #9d4200;
+}
+.color4-lines{
+    background-color:gray;
+}
+
+.color4-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,92,0, 1) 0%, rgba(255,168,0, 1) 100%);
+}
+
+.color4-5{
+background-color: black;
+}
+
+.color4-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color4-toolNameLine{
+    background: linear-gradient(180deg, #ffa800 0%, #ff5c00 100%);
+}
+
+.color4-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #ffa800 0%, #9d4200 100%);
+    filter: blur(120px);
+}
+
+.color4-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #ffa800 25.83%, #9d4200 100%);
+    filter: blur(120px);
+}
+
+.color4-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #9d4200 0%, #ffa800 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 4---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR 5---------------------------------------------*/
+
+.color5-1{
+    background-color: #24ff00 !important;
+} 
+.color5-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(36,255,0, 0.6) 0%, rgba(36,255,0, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color5-3{
+    background: radial-gradient(100% 816.33% at 0% 0%, rgba(2,219,167, 0.42) 0%, rgba(36,255,0, 0.06) 100%) !important
+}
+
+.color5-4{
+    background: linear-gradient(135deg, #029da7 0%, #24ff00 100%) !important;
+}
+.color5-color5-3{
+    background: linear-gradient(91.33deg, rgba(2,219,167, 0.6) 0%, rgba(36,255,0, 0.7) 100%);
+}
+.color5-color5-4{
+    background: linear-gradient(135deg, #029da7 0%, #24ff00 100%) !important;
+}
+.color5-color5-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(36,255,0, 0.48) 0%, rgba(36,255,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color5-color5-7{
+    background: linear-gradient(271.09deg, rgba(36,255,0, 0.85) 0%, rgba(2,219,167, 0.51) 100%);
+}
+.color5-color5-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #02dBa7 0%, #24ff00 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color5-color5-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(36,255,0, 0.48) 0%, rgba(36,255,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color5-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(36,255,0, 0.48) 0%, rgba(36,255,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll5::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll5::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll5::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #24ff00 0%, rgba(2,219,167, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll1::-webkit-scrollbar-thumb:hover {
+}*/
+.color5-borders{
+    border: 0.1vh solid #029da7;
+}
+.color5-lines{
+    background-color:gray;
+}
+
+.color5-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(2,219,167, 1) 0%, rgba(36,255,0, 1) 100%);
+}
+
+.color5-5{
+background-color: black;
+}
+
+.color5-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color5-toolNameLine{
+    background: linear-gradient(180deg, #24ff00 0%, #029da7 100%);
+}
+
+.color5-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #24ff00 0%, #029da7 100%);
+    filter: blur(120px);
+}
+
+.color5-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #24ff00 25.83%, #029da7 100%);
+    filter: blur(120px);
+}
+
+.color5-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #029da7 0%, #24ff00 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 5---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR 6---------------------------------------------*/
+
+.color6-1{
+    background-color: #ad00ff !important;
+} 
+.color6-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(173,0,255, 0.6) 0%, rgba(173,0,255, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color6-3{
+    background: radial-gradient(100% 816.33% at 0% 0%, rgba(250,0,255, 0.42) 0%, rgba(173,0,255, 0.06) 100%) !important
+}
+
+.color6-4{
+    background: linear-gradient(135deg, #fa00ff 0%, #ad00ff 100%) !important;
+}
+.color6-color6-3{
+    background: linear-gradient(91.33deg, rgba(250,0,255, 0.6) 0%, rgba(173,0,255, 0.7) 100%);
+}
+.color6-color6-4{
+    background: linear-gradient(135deg, #fa00ff 0%, #ad00ff 100%) !important;
+}
+.color6-color6-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(173,0,255, 0.48) 0%, rgba(173,0,255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color6-color6-7{
+    background: linear-gradient(271.09deg, rgba(173,0,255, 0.85) 0%, rgba(250,0,255, 0.51) 100%);
+}
+.color6-color6-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #fa00ff 0%, #ad00ff 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color6-color6-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(173,0,255, 0.48) 0%, rgba(173,0,255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color6-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(173,0,255, 0.48) 0%, rgba(173,0,255, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll6::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll6::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll6::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #ad00ff 0%, rgba(250,0,255, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll1::-webkit-scrollbar-thumb:hover {
+}*/
+.color6-borders{
+    border: 0.1vh solid #fa00ff;
+}
+.color6-lines{
+    background-color:gray;
+}
+
+.color6-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(250,0,255, 1) 0%, rgba(173,0,255, 1) 100%);
+}
+
+.color6-5{
+background-color: black;
+}
+
+.color6-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color6-toolNameLine{
+    background: linear-gradient(180deg, #ad00ff 0%, #fa00ff 100%);
+}
+
+.color6-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #ad00ff 0%, #fa00ff 100%);
+    filter: blur(120px);
+}
+
+.color6-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #ad00ff 25.83%, #fa00ff 100%);
+    filter: blur(120px);
+}
+
+.color6-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #fa00ff 0%, #ad00ff 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 6---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR 7---------------------------------------------*/
+
+.color7-1{
+    background-color: #ff0000 !important;
+} 
+.color7-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,0,0, 0.6) 0%, rgba(255,0,0, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color7-3{
+    background: radial-gradient(100% 816.33% at 0% 0%, rgba(0,0,255, 0.42) 0%, rgba(255,0,0, 0.06) 100%) !important
+}
+
+.color7-4{
+    background: linear-gradient(135deg, #0000ff 0%, #ff0000 100%) !important;
+}
+.color7-color7-3{
+    background: linear-gradient(91.33deg, rgba(0,0,255, 0.6) 0%, rgba(255,0,0, 0.7) 100%);
+}
+.color7-color7-4{
+    background: linear-gradient(135deg, #0000ff 0%, #ff0000 100%) !important;
+}
+.color7-color7-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,0,0, 0.48) 0%, rgba(255,0,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color7-color7-7{
+    background: linear-gradient(271.09deg, rgba(255,0,0, 0.85) 0%, rgba(0,0,255, 0.51) 100%);
+}
+.color7-color7-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #0000ff 0%, #ff0000 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color7-color7-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255,0,0, 0.48) 0%, rgba(255,0,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color7-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(255,0,0, 0.48) 0%, rgba(255,0,0, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll7::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll7::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll7::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #ff0000 0%, rgba(0,0,255, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll1::-webkit-scrollbar-thumb:hover {
+}*/
+.color7-borders{
+    border: 0.1vh solid #0000ff;
+}
+.color7-lines{
+    background-color:gray;
+}
+
+.color7-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(0,0,255, 1) 0%, rgba(255,0,0, 1) 100%);
+}
+
+.color7-5{
+background-color: black;
+}
+
+.color7-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color7-toolNameLine{
+    background: linear-gradient(180deg, #ff0000 0%, #0000ff 100%);
+}
+
+.color7-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #ff0000 0%, #0000ff 100%);
+    filter: blur(120px);
+}
+
+.color7-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #ff0000 25.83%, #0000ff 100%);
+    filter: blur(120px);
+}
+
+.color7-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #0000ff 0%, #ff0000 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 7---------------------------------------------*/
+
+
+/*--------------------------------------------------------------COLOR 8---------------------------------------------*/
+
+.color8-1{
+    background-color: #C4C4C4 !important;
+} 
+.color8-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(195,195,195, 0.6) 0%, rgba(195,195,195, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color8-3{
+    background: radial-gradient(100% 816.33% at 0% 0%, rgba(143,255,0, 0.42) 0%, rgba(195,195,195, 0.06) 100%) !important
+}
+
+.color8-4{
+    background: linear-gradient(135deg, #8fff00 0%, #C4C4C4 100%) !important;
+}
+.color8-color8-3{
+    background: linear-gradient(91.33deg, rgba(143,255,0, 0.6) 0%, rgba(195,195,195, 0.7) 100%);
+}
+.color8-color8-4{
+    background: linear-gradient(135deg, #8fff00 0%, #C4C4C4 100%) !important;
+}
+.color8-color8-6{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(195,195,195, 0.48) 0%, rgba(195,195,195, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color8-color8-7{
+    background: linear-gradient(271.09deg, rgba(195,195,195, 0.85) 0%, rgba(143,255,0, 0.51) 100%);
+}
+.color8-color8-8{
+    background: radial-gradient(100% 122.62% at 100% 0%, #8fff00 0%, #C4C4C4 100%) !important/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color8-color8-2{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(195,195,195, 0.48) 0%, rgba(195,195,195, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.color8-menu{
+    background: radial-gradient(100% 459.18% at 0% 0%, rgba(195,195,195, 0.48) 0%, rgba(195,195,195, 0.12) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.scroll8::-webkit-scrollbar {  
+    width: 0.5vw; 
+    height: 1vh;
+}
+.scroll8::-webkit-scrollbar-track {
+    border-radius: 5vh;
+    border: none;
+}
+
+.scroll8::-webkit-scrollbar-thumb {  
+    background: linear-gradient(270deg, #C4C4C4 0%, rgba(143,255,0, 0.6) 100%);
+    border-radius: 5vh;
+}
+/*.scroll1::-webkit-scrollbar-thumb:hover {
+}*/
+.color8-borders{
+    border: 0.1vh solid #8fff00;
+}
+.color8-lines{
+    background-color:gray;
+}
+
+.color8-back{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(143,255,0, 1) 0%, rgba(195,195,195, 1) 100%);
+}
+
+.color8-5{
+background-color: black;
+}
+
+.color8-arrow{
+border-left: 0.7vw solid black;
+}
+
+.color8-toolNameLine{
+    background: linear-gradient(180deg, #C4C4C4 0%, #8fff00 100%);
+}
+
+.color8-mainCircle1{
+    background: radial-gradient(100% 100% at 50% 0%, #C4C4C4 0%, #8fff00 100%);
+    filter: blur(120px);
+}
+
+.color8-mainCircle2{
+    background: radial-gradient(100% 100% at 50% 0%, #C4C4C4 25.83%, #8fff00 100%);
+    filter: blur(120px);
+}
+
+.color8-backGround{
+    background: radial-gradient(100% 178.95% at 100% 0%, #8fff00 0%, #C4C4C4 99.97%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/*--------------------------------------------------------------COLOR 8---------------------------------------------*/
+
+.color1-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 360deg);
+}
+.color2-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FFA800 0deg, #FF5C00 360deg);
+}
+.color3-box{
+    background: conic-gradient(from 180deg at 50% 50%, #C4C4C4 0deg, #8FFF00 360deg);
+}
+.color4-box{
+    background: conic-gradient(from 180deg at 50% 50%, #DE00FF 0deg, #AE00FF 360deg);
+}
+.color5-box{
+    background: conic-gradient(from 180deg at 50% 50%, #0238FF 0deg, #FC015E 360deg);
+}
+.color6-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FAFF00 0deg, #9E4300 360deg);
+}
+.color7-box{
+    background: conic-gradient(from 180deg at 50% 50%, #FE0202 0deg, #02FEFE 360deg);
+}
+.color8-box{
+    background: conic-gradient(from 180deg at 50% 50%, #24FF01 0deg, #02DBA7 360deg);
+}
+
+
+.color1Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #000000 0%, #FFFFFF 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color1Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #000000 0%, #FFFFFF 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color1Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #000000 0%, #FFFFFF 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color2Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #ff005c 0%, #0038ff 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color2Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #ff005c 0%, #0038ff 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color2Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #ff005c 0%, #0038ff 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color3Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #9d4200 0%, #faff00 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color3Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #9d4200 0%, #faff00 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color3Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #9d4200 0%, #faff00 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color4Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #ff5c00 0%, #ffa800 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color4Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #ff5c00 0%, #ffa800 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color4Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #ff5c00 0%, #ffa800 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color5Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #02dba7 0%, #24ff00 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color5Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #02dba7 0%, #24ff00 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color5Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #02dba7 0%, #24ff00 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color6Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #fa00ff 0%, #ad00ff 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color6Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #fa00ff 0%, #ad00ff 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color6Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #fa00ff 0%, #ad00ff 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color7Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #0000ff 0%, #ff0000 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color7Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #0000ff 0%, #ff0000 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color7Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #0000ff 0%, #ff0000 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color8Back::before {
+    position: absolute;
+    top:calc(30% - 4.7vh);
+    left: 70%;
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #8fff00 0%, #c4c4c4 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+.color8Back1::before {
+    width:9vh;
+    height: 9vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #8fff00 0%, #c4c4c4 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
+
+  .color8Back2::before {
+    position: absolute;
+    top: calc(29.5% - 4vh);
+    left: 70%;
+    width:8vh;
+    height: 8vh;
+    background: radial-gradient(100% 178.95% at 100% 0%, #8fff00 0%, #c4c4c4 99.97%);
+    content:"";
+    border-radius: 100%;
+  }
