@@ -1,5 +1,5 @@
 # courseWork
-This is my courseWork, that I have done on the forth year of my learning expirience at Nazarbayev University. 
+This is my courseWork, that I have done on the forth year of my learning expirience at Nazarbayev University with Electron and Flask frameworks(nodejs+js+python). 
 Projects main aim was to create set of tool to fix the real progress in real time of different aspects such us time management, learning, finance, sport, eating. However due to the time limits and our poor team skills, we have created only time management and learning tools. Neverthless, this project contains many interesting points such as machine learning, data structures, architecture, design patterns etc. Here are some snapshots of our final product
 ![image](https://user-images.githubusercontent.com/88711794/183814904-ce397bbf-e478-46d7-b8f4-da9b88c8bd09.png)
 ![image](https://user-images.githubusercontent.com/88711794/183814935-8865cc09-3b8b-4171-acae-03ee06341a52.png)
