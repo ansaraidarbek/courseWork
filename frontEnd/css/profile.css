@@ -1,0 +1,81 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(./fonts/RobotoSlab.ttf);
+}
+
+@font-face {
+    font-family: NotoSerif;
+    src: url(./fonts/NotoSerif-Regular.ttf);
+}
+
+.profile{
+    height: 50%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-content{
+    height: 80%;
+    width: 60%;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.profile-image{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+/* .profile-info p{
+    font-family: RobotoSlab;
+    margin-left:2vw ;
+    font-size: 2vh;
+    margin-top: 2vh;
+} */
+.profile-name{
+    font-weight: 500;
+    font-size: 4vh;
+    margin-bottom: 0;
+    margin-top: 2vh;
+}
+.age{
+    color: #787878;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.5vh;
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+}
+.profile-body{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-content{
+    height: 80%;
+    width: 60%;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}

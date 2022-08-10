@@ -1,0 +1,307 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.welcomeMenu-img{
+    width: 100vw;
+    height:100vh;
+    position:absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.welcomeMenu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.welcomeMenu-body{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.op{
+    background-color:rgba(194, 194, 194, 0.8)
+}
+.welcomeMenu-lowerBody{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+    width: 28vw;
+    height: 40vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    left: 33vw;
+    top: 48vh;
+}
+
+.welcomeMenu-body h1{
+    margin:0;
+    margin-right: 1vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 9vh;
+    border-bottom: 16px double #373737;
+    padding-bottom: 5px;
+}
+
+.welcomeMenu-body h2{
+    margin-right: 1vw !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 7vh;
+    font-weight: 700;
+    margin: 3% 0 0 0;
+    margin-top: 2vh !important;
+}
+
+.welcomeMenu-lowerBody h3{
+    margin: 3% 0;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 3vh;
+    font-weight: 700;
+}
+.welcomeMenu-options{
+    width:calc(100% - 3vw);
+    margin-top: 3vh;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    margin-left: 3vw;
+    padding: 0;
+    margin-bottom: 8vh;
+    
+}
+.welcomeMenu-customcb {
+    width: 17px;
+    height: 17px;
+    margin: 2px 0 2px 0;
+    background: #ddd;
+    border-radius: 100%;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  }
+.welcomeMenu-button{
+    width:100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.welcomeMenu-button button{
+    margin-right: 3vw !important;
+    border-radius: 10px;
+    width: 6vw;
+    height: 4vh;
+    border:none;
+    display:inline-block;
+    
+    
+    transition: all 0.2s;
+    margin:0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size:2.5vh;
+    cursor: pointer;
+}
+.welcomeMenu-toolsTasks > input:checked {
+    border: 1px solid #41B883;
+    background-color: #34495E;
+}
+
+
+  
+/* Hide the default checkbox */
+input[type=checkbox] {
+    visibility: hidden;
+}
+  
+/* Creating a custom checkbox
+based on demand */
+.welcomeMenu-geekmark1 {
+    position: absolute;
+    top: 0.5vh;
+    left: -2.5vw;
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color: white;
+}
+.welcomeMenu-main{
+    position: relative;
+    margin-left: 3vw;
+}
+/* Specify the background color to be
+shown when hovering over checkbox */
+.welcomeMenu-main:hover input ~ .welcomeMenu-geekmark1 {
+    background-color: white;
+}
+  
+/* Specify the background color to be
+shown when checkbox is active */
+
+  
+/* Specify the background color to be
+shown when checkbox is checked */
+.welcomeMenu-main input:checked ~ .welcomeMenu-geekmark1 {
+    background-color: white;
+}
+  
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.welcomeMenu-geekmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Display checkmark when checked */
+.welcomeMenu-main input:checked ~ .welcomeMenu-geekmark1:after {
+    display: block;
+}
+  
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.welcomeMenu-main .welcomeMenu-geekmark1:after {
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Hide the default checkbox */
+input[type=checkbox] {
+    visibility: hidden;
+}
+  
+/* Creating a custom checkbox
+based on demand */
+.welcomeMenu-geekmark2 {
+    position: absolute;
+    top: 0.5vh;
+    left: -2.5vw;
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color: white;
+}
+
+/* Specify the background color to be
+shown when hovering over checkbox */
+.welcomeMenu-main:hover input ~ .welcomeMenu-geekmark2 {
+    background-color: white;
+}
+  
+/* Specify the background color to be
+shown when checkbox is active */
+
+  
+/* Specify the background color to be
+shown when checkbox is checked */
+.welcomeMenu-main input:checked ~ .welcomeMenu-geekmark2 {
+    background-color: white;
+}
+  
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.welcomeMenu-geekmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Display checkmark when checked */
+.welcomeMenu-main input:checked ~ .welcomeMenu-geekmark2:after {
+    display: block;
+}
+  
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.welcomeMenu-main .welcomeMenu-geekmark2:after {
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.welcomeMenu-geekmark3 {
+    position: absolute;
+    top: 0.5vh;
+    left: -2.5vw;
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color: white;
+}
+
+/* Specify the background color to be
+shown when hovering over checkbox */
+.welcomeMenu-main:hover input ~ .welcomeMenu-geekmark3 {
+    background-color: white;
+}
+  
+/* Specify the background color to be
+shown when checkbox is active */
+
+  
+/* Specify the background color to be
+shown when checkbox is checked */
+.welcomeMenu-main input:checked ~ .welcomeMenu-geekmark3 {
+    background-color: white;
+}
+  
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.welcomeMenu-geekmark3.welcomeMenu-geekmark3:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Display checkmark when checked */
+.welcomeMenu-main input:checked ~ .welcomeMenu-geekmark3:after {
+    display: block;
+}
+  
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.welcomeMenu-main .welcomeMenu-geekmark3:after {
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+

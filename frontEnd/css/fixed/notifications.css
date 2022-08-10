@@ -1,0 +1,55 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.mainBody{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+img{
+    height: 80vh;
+    margin: 0;
+    margin-left: 10vh;
+    padding: 0;
+}
+
+.textSide{
+    color:white;
+    margin-left: 10px;
+    height: 100vh;
+    width: calc(100vw - 100vh - 10px);
+}
+p{
+    font-size: 15vh;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+
+h1{
+    font-size: 20vh;
+    margin: 0;
+    padding: 0;
+    height:40vh;
+    line-height: 20vh;
+}
+
+h2{
+    font-size: 15vh;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}

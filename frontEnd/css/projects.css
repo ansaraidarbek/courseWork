@@ -1,0 +1,122 @@
+.projects{
+    height: 6vh;
+    margin: 2.5vh 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.projects-container{
+    z-index:3;
+    margin: 0 1vw;
+    width: 18vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(100% 2061.16% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 89.37%, rgba(255, 255, 255, 0) 100%) !important /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.projects-container ul{
+    position: absolute;
+    top:1vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+    width: 10.2vw;
+    white-space: nowrap;
+    list-style: none;
+}
+
+.projects-container ul li{
+    min-width: 2.5vw;
+    min-height: 2.5vw;
+    border-radius: 5px;
+    margin: 0 0 0 0.9vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transform:translateY(-2vh);
+    opacity: 0;
+    transition: 150ms;
+}
+
+.projects-container ul li.show{
+    transform:translateY(0);
+    opacity:1;
+}
+
+.forBest{
+    position: relative;
+    height: 10vh;
+    width: 10.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.outerBox{
+    z-index:3;
+    position: relative;
+    margin-right: 2vh;
+    border-radius: 10px;
+    min-width:5vw;
+    min-height: 5vw;
+    width: 5vw;
+    height: 5vw;
+    opacity:1 !important;
+    backdrop-filter: blur(100px);
+    box-sizing: border-box;
+}
+/*.rotate{
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+} */
+
+
+.mainProject{
+    font-size: 5.5vh;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top:2.5%;
+    left:2.5%;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(100px);
+    box-sizing: border-box;
+    backdrop-filter: blur(100px);
+    /* Note: backdrop-filter has minimal browser support */
+    z-index:3;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    /* font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; */
+}
+.mainProject:hover{
+    transform: scale(1.05);
+}

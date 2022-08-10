@@ -1,0 +1,207 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ansars_beauty{
+    background-color: #5C5C5C!important;
+    position: absolute;
+    top: 0;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-header{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50vh;
+    padding:0;
+    /* margin:2vh; */
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.register-body{
+    position: relative;
+    width: 375px;
+    min-height: 321px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 375px;
+    height: 321px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    margin: 12px 0 0 0;
+}
+.user_box{
+    background-color: rgba(194,194,194,0.5)!important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user_box img{
+    opacity: 1; 
+    width: 90px;
+    height: 80px;
+}
+
+.register-userInfo{
+    position: relative;
+    width:215px;
+}
+
+.register-userInfo input{
+    background-color: rgba(194,194,194,0.5)!important;
+    width : 180px;
+    height: 24px;
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 0 0 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 4px #000000;
+}
+.register-userInfo input::placeholder{
+    color: black;
+}
+
+.register-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+}
+
+.register-info span{
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.register-info input{
+    
+    margin-top: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 0 0 11px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.buttons{position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 346px;
+    justify-content: space-between;
+}
+
+.register-button{
+    background-color: rgba(194,194,194,0.5)!important;
+    position: relative;
+    width: 346px;
+    height: 40px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.two-buttons{
+    position: relative;
+    width: 160px;
+    height: 40px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.register-paging i{
+    position: relative;
+    margin-top: 14px;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+}
+
+.register-toLogin{
+    width: 375px;
+    height: 25px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+
+    text-align: end;
+    margin-top: 25px;
+}
